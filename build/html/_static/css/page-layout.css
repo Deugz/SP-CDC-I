@@ -1,0 +1,47 @@
+--bs-navbar-nav-link-padding-x
+
+/* Étendre le header sur toute la largeur de l'écran */
+.bd-header {
+    max-width: 100vw;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.bd-header .bd-header__inner {
+    max-width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+/* Mobile */
+.navbar-header-items__start {
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .navbar-header-items__start {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .navbar-header-items__start {
+        flex: 0 0 18%;
+        max-width: 18%;
+    }
+}
+
+@media (min-width: 992px) {
+    .bd-header .navbar-nav {
+        gap: 1.25rem;
+    }
+}
+
+.bd-links__title {
+    display: none;
+}

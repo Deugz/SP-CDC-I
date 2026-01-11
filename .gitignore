@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.doc-V0/
+
+
+# OS / editor noise
+.DS_Store
+.ipynb_checkpoints
+**/.ipynb_checkpoints
+Thumbs.db
+.vscode/
+.idea/
+
+# Sphinx build output
+/build/*
+!/build/html/
+
+# Autres
