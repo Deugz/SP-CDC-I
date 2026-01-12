@@ -43,12 +43,12 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "Drive",
-            "url": "https://drive.google.com/drive/folders/1Gqv0_RDXwI7om8ob1uVuu7__oYLtDHYp",
+            "url": "https://drive.google.com/drive/folders/1tVEDeNz04hoDiSf5rC6Aa1fWoIU3sYrN?usp=drive_link",
             "icon": "fa-brands fa-google-drive",
         },
         {
             "name": "Calendrier",
-            "url": "https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FParis&showPrint=0&mode=WEEK&hl=fr&src=dmRlZ3VpbkBsYWJlbC1lbW1hdXMuY28&src=Y185OWQ3Y2M0MWJhYjE4OTBlYWYyY2FhZmJjZDZjYWZiN2ZjMWRiNmZkYzI1Y2UwYmQ0ZTgzMGFmNzkwZmU1YTgxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bG1lcmVzc2VAbGFiZWwtZW1tYXVzLmNv&color=%230B8043&color=%234285F4&color=%230B8043&color=%23AD1457",
+            "url": "https://docs.google.com/spreadsheets/d/1NEZJVofrB-r15zuVjQ8gWDN5c8zM6vE1vBBqCKaASKk/edit?usp=drive_link",
             "icon": "fa-regular fa-calendar-days",
         },
 

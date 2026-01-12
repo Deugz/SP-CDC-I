@@ -17,31 +17,30 @@ Viny/Methode/Methode-main
 :caption: 🧩 4.Académie
 :hidden:
 
-Academie/Nom
+Academie/Nom-valeurs/Nom
 Academie/Besoin/Besoin-main
-Academie/Description/Offre
+Academie/Offre/Offre
 Academie/Pitch/Pitch
 ```
 
 
 ```{toctree}
 :maxdepth: 2
-:caption: 🔴 Périmètre
+:caption: 💼 Gestion de Projet
 :hidden:
 
 Perimetre/Vision/Globale
+Perimetre/Contraintes/Contraintes-main
 Perimetre/Objectifs/objectifs
-Perimetre/Delais/delais
-Perimetre/Budgets/budgets
+Perimetre/Outils/Outils-GDP-main
 ```
-
 
 ```{toctree}
 :maxdepth: 2
-:caption: 💼 Gestion 
+:caption: 📦 Annexes
 :hidden:
 
-GDP/To-do
-GDP/Gant-Chart
-
+Annexes/Versions/V_en-cours/V0.1
 ```
+
+
