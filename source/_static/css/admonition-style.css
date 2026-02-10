@@ -1,0 +1,30 @@
+.dropdown-arrow {
+    margin-top: 3rem;
+    margin-bottom: 3rem !important;
+}
+
+.dropdown-arrow:not([open]) {
+   /* espace fixe sous le dropdown fermé */
+}
+
+/* Positionnement relatif du summary */
+.dropdown-arrow > summary {
+  position: relative;
+  padding-right: 3.5rem; /* espace pour icône + chevron */
+}
+
+/* Icône quand fermé */
+.dropdown-arrow > summary::after {
+  content: " 👉";
+  position: absolute;
+  right: 3rem;   /* juste avant la flèche native */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.1em;
+  pointer-events: none;
+}
+
+/* Icône quand ouvert */
+.dropdown-arrow[open] > summary::after {
+  content: " 👌";
+}

@@ -14,9 +14,17 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+numfig = True
+
 extensions = [
     "myst_parser",
     "sphinx_design",
+    "sphinx.ext.autosectionlabel"
+]
+
+myst_enable_extensions = [
+    "colon_fence",
+    "linkify",
 ]
 
 bibtex_bibfiles = ["references.bib"]
@@ -35,6 +43,8 @@ html_favicon = "_static/logos/Label-Ecole-Logo.png"
 templates_path = ["_static/_templates"]
 
 html_theme_options = {
+    "navigation_with_keys": True,
+    "show_toc_level": 2,
     "external_links": [
 
     ],
@@ -58,4 +68,4 @@ html_theme_options = {
 
 html_static_path = ['_static']
 
-html_css_files = ["css/page-layout.css", ]
+html_css_files = ["css/page-layout.css", "css/admonition-style.css"]

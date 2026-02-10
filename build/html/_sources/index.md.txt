@@ -2,44 +2,75 @@
 :maxdepth: 4
 :hidden:
 
-content/Presentations/Presentations-main
+content/I-Presentations/Presentations-main
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/Analyse/Analyse-main
+content/II-Analyse/Analyse-main
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/Identitee/Identitee-main
+content/III-Identitee/Identitee-main
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/Conception/Conception-main
+content/IV-Conception/Conception-main
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/Dev/Dev-main
+content/V-Dev/Dev-main
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/Marketing/Marketing-main
+content/VI-Marketing/Marketing-main
 ```
 
-# Cahier des Charges
+<br>
+
+```{image} _static/title/journal-de-prod.svg
+width: 100%
+
+```
+
+***
+
+<br>
+<br>
+
+# 4.Académie
 
 C'est parti papa (11/01/2026)
+
+
+
+```{note}
+
+Projet en une phrase
+
+- css p-emphase
+
+```
+
+Un ensemble de solutions numériques open sources et gratuites, permettant à tout **Artisan de la connaissance**, d'écrire et de partager le récit vivant de ses apprentissages !
+
+
+## Bonjour 
+
+
+
+## Cahier des Charges
