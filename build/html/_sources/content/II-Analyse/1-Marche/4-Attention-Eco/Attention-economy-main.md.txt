@@ -1,4 +1,4 @@
-# Economie de l'Attention
+# Économie de l'Attention
 
 ```{toctree}
 :maxdepth: 2

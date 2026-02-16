@@ -1,8 +1,7 @@
 # Bibliography
 
-```{note}
+```{bibliography}
 
-Créer et implémenter
 
 
 ```

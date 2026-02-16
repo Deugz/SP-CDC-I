@@ -13,6 +13,30 @@
 - **Raison d'être**
 
 
+
+```{note}
+
+Créer un schéma qui reprend les 4 cercles et implémenter avec les h2 des différentes sections
+
+```
+
+
+## Outils Utilisés
+
+### Livres
+
+
+```{note}
+
+Parler du livre et faire des paralèlles avec les exercices proposés
+
+```
+
+
+### Outils Numériques
+
+
+
 [Ikigai +](https://www.learningplanetinstitute.org/en/programs/ikigai/)
 
 (dropdown-IA-Ikigai-1)=

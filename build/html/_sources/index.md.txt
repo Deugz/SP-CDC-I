@@ -43,7 +43,7 @@ content/VI-Marketing/Marketing-main
 <br>
 
 ```{image} _static/title/journal-de-prod.svg
-width: 100%
+:width: 100%
 
 ```
 

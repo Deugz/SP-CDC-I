@@ -19,7 +19,8 @@ numfig = True
 extensions = [
     "myst_parser",
     "sphinx_design",
-    "sphinx.ext.autosectionlabel"
+    "sphinx.ext.autosectionlabel",
+    "sphinxcontrib.bibtex",
 ]
 
 myst_enable_extensions = [

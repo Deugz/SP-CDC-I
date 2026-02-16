@@ -1,30 +1,25 @@
 # Education
 
-## Un Système Mondialisé
+```{toctree}
+:maxdepth: 2
+:hidden:
 
+1-Primaire-Secondaire/Primaire-Secondaire
+2-Enseignement-lucratif/Enseignement-lucratif
+3-Formation-Pro/Formation-Professionel
+4-Superieur/Enseignement-superieur
 
-
-
-
-## Fast-Education
-
-```{note}
-
-Intégrer la vidéo ci-dessous et créer un chapitre dédié à la **fast éducation**
-
-- [Youtube](https://www.youtube.com/watch?v=Wew-lp-8NkQ) - Ces ÉCOLES qui arnaquent les ÉTUDIANTS - Révélations de la journaliste Claire Marchal
-
-- [Drive] - Les sources proposés dans la vidéo 
-
-Extraire et faire des liens
 
 ```
 
-### Les Acteurs
 
-- [Galileo Global Education](https://www.ggeedu.com/)
+```{note}
 
-- [studi](https://www.studi.com/fr)
+Reprendre les différentes étapes de la vie éducative d'un jeune
 
-### Alternance
+```
+
+
+## Un Système Mondialisé
+
 

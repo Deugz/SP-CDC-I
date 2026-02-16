@@ -12,3 +12,4 @@
 ```
 
 Il me semblait important au début de cette avanture de clarifier mes positions idéologiques. En effet, mon projet est résolument **politique**, il est donc très important pour moi d'énoncer clairement mes opinions.
+

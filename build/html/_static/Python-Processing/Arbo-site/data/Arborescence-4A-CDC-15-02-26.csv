@@ -1,0 +1,151 @@
+id,Domaine,Categorie,Sections,Pages,sous-pages
+I.1.1.1,Présentations,🧐 ,Mon Histoire,Prise d’élan,
+I.1.1.2,Présentations,🧐 ,Mon Histoire,Décollage,
+I.1.1.3,Présentations,🧐 ,Mon Histoire,Le Mythe d’Icare,
+I.1.1.4,Présentations,🧐 ,Mon Histoire,et du Phoenix,
+I.1.2.1.1,Présentations,🧐 ,Mes Opinions,Numérique,Métiers
+I.1.2.1.2,Présentations,🧐 ,Mes Opinions,Numérique,Compétences
+I.1.2.1.3,Présentations,🧐 ,Mes Opinions,Numérique,GAFAM
+I.1.2.1.4,Présentations,🧐 ,Mes Opinions,Numérique,Souveraineté
+I.1.2.2.1,Présentations,🧐 ,Mes Opinions,Education,Primaire & Secondaire
+I.1.2.2.2,Présentations,🧐 ,Mes Opinions,Education,Enseignement Lucratif
+I.1.2.2.3,Présentations,🧐 ,Mes Opinions,Education,Formation Professionnelle
+I.1.2.2.4,Présentations,🧐 ,Mes Opinions,Education,Enseignement Superieur
+I.1.2.3.1,Présentations,🧐 ,Mes Opinions,Science,La Méthode Scientifique
+I.1.2.3.2,Présentations,🧐 ,Mes Opinions,Science,Scientific Publication
+I.1.2.3.3,Présentations,🧐 ,Mes Opinions,Science,Open Science
+I.1.2.3.4,Présentations,🧐 ,Mes Opinions,Science,Reproducibility Crisis
+I.1.2.4.1,Présentations,🧐 ,Mes Opinions,Démocratie,
+I.1.2.4.2,Présentations,🧐 ,Mes Opinions,Démocratie,
+I.1.2.4.3,Présentations,🧐 ,Mes Opinions,Démocratie,
+I.1.2.4.4,Présentations,🧐 ,Mes Opinions,Démocratie,
+I.1.3.1,Présentations,🧐 ,Mon Ikigai,je peux être Payé,
+I.1.3.2,Présentations,🧐 ,Mon Ikigai,je suis Doué,
+I.1.3.3,Présentations,🧐 ,Mon Ikigai,j’Aime,
+I.1.3.4,Présentations,🧐 ,Mon Ikigai,le Monde à Besoin,
+I.1.4.1,Présentations,🧐 ,Ma Methode,Stack,
+I.1.4.2.1,Présentations,🧐 ,Ma Methode,Workflows,Se Lancer
+I.1.4.2.2,Présentations,🧐 ,Ma Methode,Workflows,Implémenter
+I.1.4.2.3,Présentations,🧐 ,Ma Methode,Workflows,Heberger
+I.1.4.2.4,Présentations,🧐 ,Ma Methode,Workflows,Iterer
+I.1.4.3,Présentations,🧐 ,Ma Methode,Base de Connaissance,
+I.1.4.4.1,Présentations,🧐 ,Ma Methode,Intelligences,Artificielle
+I.1.4.4.2,Présentations,🧐 ,Ma Methode,Intelligences,Humaine
+I.1.4.4.3,Présentations,🧐 ,Ma Methode,Intelligences,Collective
+I.1.4.4.4,Présentations,🧐 ,Ma Methode,Intelligences,Globale
+I.2.1.1,Présentations,🧩,Nom et Valeurs,Web 4.0,
+I.2.1.2,Présentations,🧩,Nom et Valeurs,Planète Apprenante,
+I.2.1.3,Présentations,🧩,Nom et Valeurs,Open-Source,
+I.2.1.4,Présentations,🧩,Nom et Valeurs,Anarchie,
+I.2.2.1,Présentations,🧩,Hypothèses sur le Besoin,Création,
+I.2.2.2,Présentations,🧩,Hypothèses sur le Besoin,Connaissances,
+I.2.2.3,Présentations,🧩,Hypothèses sur le Besoin,Partage,
+I.2.2.4,Présentations,🧩,Hypothèses sur le Besoin,Liens,
+I.2.3.1,Présentations,🧩,Description de l’Offre,Artisanat,
+I.2.3.2,Présentations,🧩,Description de l’Offre,Apprentissages,
+I.2.3.3,Présentations,🧩,Description de l’Offre,"Accompagnement",
+I.2.3.4,Présentations,🧩,Description de l’Offre,Assemblage,
+I.2.4.1,Présentations,🧩,Vision Globale,Atelier,
+I.2.4.2,Présentations,🧩,Vision Globale,Academie,
+I.2.4.3,Présentations,🧩,Vision Globale,Alliance,
+I.2.4.4,Présentations,🧩,Vision Globale,Agora,
+I.3.1.1,Présentations,💼,Contexte,Liberte,
+I.3.1.2,Présentations,💼,Contexte,CDUI,
+I.3.1.3,Présentations,💼,Contexte,Environnement,
+I.3.1.4,Présentations,💼,Contexte,Ambitions,
+I.3.2.1,Présentations,💼,Objectifs,Créer,
+I.3.2.2,Présentations,💼,Objectifs,Enseigner,
+I.3.2.3,Présentations,💼,Objectifs,Fédérer,
+I.3.2.4,Présentations,💼,Objectifs,Inspirer,
+I.3.3.1,Présentations,💼,Contraintes,Structure,
+I.3.3.2,Présentations,💼,Contraintes,"Statuts",
+I.3.3.3,Présentations,💼,Contraintes,"Délais",
+I.3.3.4,Présentations,💼,Contraintes,Budgets,
+I.3.4.1,Présentations,💼,Outils,Organiser,
+I.3.4.2,Présentations,💼,Outils,Apprendre,
+I.3.4.3,Présentations,💼,Outils,Faire,
+I.3.4.4,Présentations,💼,Outils,Communiquer,
+I.4.1.1,Présentations,📦,Listes,Figures,
+I.4.1.2.1,Présentations,📦,Listes,Dropdown,Comment j’ai fait
+I.4.1.2.2,Présentations,📦,Listes,Dropdown,Reflexions
+I.4.1.2.3,Présentations,📦,Listes,Dropdown,En Savoir Plus
+I.4.1.2.4,Présentations,📦,Listes,Dropdown,Usage IA
+I.4.1.3,Présentations,📦,Listes,Iframe,
+I.4.2.1,Présentations,📦,Glossaire,Acronymes,
+I.4.2.2,Présentations,📦,Glossaire,Definitions,
+I.4.3,Présentations,📦,Bibliography,,
+I.4.4.1,Présentations,📦,Versions,"Version Alpha (en cours)",
+,Analyse,💰,Note & PKM Apps,Exploration,
+,Analyse,💰,Note & PKM Apps,Proposition de Valeure,
+,Analyse,💰,Note & PKM Apps,SWOT,
+,Analyse,💰,Note & PKM Apps,Business Model,
+,Analyse,💰,Formation & EdTech,Exploration,
+,Analyse,💰,Formation & EdTech,Proposition de Valeure,
+,Analyse,💰,Formation & EdTech,SWOT,
+,Analyse,💰,Formation & EdTech,Business Model,
+,Analyse,💰,FAIR Publishing,Exploration,
+,Analyse,💰,FAIR Publishing,Proposition de Valeure,
+,Analyse,💰,FAIR Publishing,SWOT,
+,Analyse,💰,FAIR Publishing,Business Model,
+,Analyse,💰,Économie de l’Attention,Exploration,
+,Analyse,💰,Économie de l’Attention,Proposition de Valeure,
+,Analyse,💰,Économie de l’Attention,SWOT,
+,Analyse,💰,Économie de l’Attention,Business Model,
+,Analyse,📂,"Créative & Technologique",,
+,Analyse,📂,Informationnelle et Scientifique,,
+,Analyse,📂,"Legal & Institutionelle",,
+,Analyse,📂,Stratégique,,
+,Analyse,❤️,Méthodes,Source,
+,Analyse,❤️,Méthodes,Enquêtes,
+,Analyse,❤️,Méthodes,Formulaire,
+,Analyse,❤️,Méthodes,Interviews,
+,Analyse,❤️,Cibles,Coeur de Cible,
+,Analyse,❤️,Cibles,Cible Principale,
+,Analyse,❤️,Cibles,Cibles Secondaires,
+,Analyse,❤️,Cibles,Cibles Relais,
+,Analyse,❤️,Personas,Persona 1,
+,Analyse,❤️,Personas,Persona 2,
+,Analyse,❤️,Personas,Persona 3,
+,Analyse,❤️,Personas,Persona 4,
+,Analyse,❤️,La Communauté,,
+,Analyse,🤩,Digital (UI / UX),Posthog,
+,Analyse,🤩,Learning Experience,,
+,Analyse,🤩,Technologique,,
+,Analyse,🤩,"Concurrentiel",Obsidian,
+,Analyse,🤩,"Concurrentiel",Curvenote,
+,Identitée,🎯,ADN,Nucleotides,Art
+,Identitée,🎯,ADN,Nucleotides,Transmission
+,Identitée,🎯,ADN,Nucleotides,"Construction"
+,Identitée,🎯,ADN,Nucleotides,Gestion
+,Identitée,🎯,ADN,Code Source,Intention
+,Identitée,🎯,ADN,Code Source,Innovation
+,Identitée,🎯,ADN,Code Source,"Temporalité"
+,Identitée,🎯,ADN,Code Source,"Ethique"
+,Identitée,🎯,ADN,"Phénotype Créatif",Esthétique
+,Identitée,🎯,ADN,"Phénotype Créatif",Experimentations
+,Identitée,🎯,ADN,"Phénotype Créatif","Langage"
+,Identitée,🎯,ADN,"Phénotype Créatif",Ecosystème
+,Identitée,🎯,ADN,Dynamiques Evolutives,
+,Identitée,🎯,Positionement,,
+,Identitée,🎯,Personalité,,
+,Identitée,🎯,Experience,,
+,Identitée,💥,,,
+,Identitée,💥,,,
+,Identitée,💥,,,
+,Identitée,💥,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,
+,Identitée,,,,

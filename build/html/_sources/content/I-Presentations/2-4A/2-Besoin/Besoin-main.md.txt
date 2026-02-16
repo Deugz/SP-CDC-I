@@ -5,7 +5,7 @@
 :hidden:
 
 1-Creation/Creation
-2-Competences/Competences
+2-Connaissances/Connaissances
 3-Partage/Partage
 4-Liens/Liens
 

@@ -8,7 +8,7 @@
 1-IA/Intelligence-Artificielle
 2-IH/Intelligence-Humaine
 3-IC/Intelligence-Collective
-4-IG/Intelligence-Globale
+4-IE/Intelligence-Environemental
 
 ```
 
@@ -18,6 +18,6 @@
     - Humaine
     - Artificielle
     - Collective
-    - Globale
+    - Environemental
 
 ```

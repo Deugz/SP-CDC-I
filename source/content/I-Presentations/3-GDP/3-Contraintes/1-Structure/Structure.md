@@ -1,22 +1,17 @@
 # Structure
 
-## Stockage
 
+## No Google
+
+J'aimerai ne pas utiliser d'outils issues de la suite Google (Drive ou gmail par exemple)
+
+### Proton Mail
+
+> La première étape de mon projet a consisté à mettre en place une adresse mail dédié au projet. J'ai choisi proton mail et ai créé l'adresse mail suivante :
+> - 4-a.contact@protonmail.com
 
 
 ### Framaspace
 
-```{note}
 
-Inclure la vidéo ci dessous :
-
-- [Framatube](https://framatube.org/w/3CozP3N12CYPNnG15jWd3i)
-
-
-- [pdf](Docs/paper146_article_rev1667_20241031_153401.pdf)
-
-- [Nextcloud](https://nextcloud.com/²)
-
-
-```
 

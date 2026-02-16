@@ -2,7 +2,7 @@
 
 ```{toctree}
 :maxdepth: 2
-:caption: 💰 Analyse de Marché
+:caption: 💰 Analyse de Marchés
 :hidden:
 
 1-Marche/1-Note-PKM/Note-PKM-main
@@ -18,8 +18,8 @@
 :hidden:
 
 2-Veille/1-Creativ-Tech/Creativ-Tech-main
-2-Veille/2-Legal-Instit/Legal-main
-2-Veille/3-Info/Informationel-main
+2-Veille/2-Info/Informationel-main
+2-Veille/3-Legal-Instit/Legal-main
 2-Veille/4-Strategique/Strategique-main
 
 ```

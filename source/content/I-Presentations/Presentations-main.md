@@ -41,10 +41,9 @@
 :hidden:
 
 4-Annexes/1-Listes/Listes-main
-4-Annexes/2-Versions/Versions-main
+4-Annexes/2-Glossaire/Glossaire-main
 4-Annexes/3-Biblio/bibliography
-4-Annexes/4-Glossaire/Glossaire
-
+4-Annexes/4-Versions/Versions-main
 ```
 
 ## Qui suis-je ?

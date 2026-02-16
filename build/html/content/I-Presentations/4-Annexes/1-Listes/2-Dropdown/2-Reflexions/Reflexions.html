@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>🧠 Reflexions &#8212; CDC 0.1 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=362ab14a" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/page-layout.css?v=52b856e3" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/admonition-style.css?v=8c3222a8" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../../../../../_static/documentation_options.js?v=1b390748"></script>
+    <script src="../../../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'content/I-Presentations/4-Annexes/1-Listes/2-Dropdown/2-Reflexions/Reflexions';</script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" />
+    <link rel="next" title="👀 En Savoir Plus" href="../3-Savoir-plus/Savoir-plus.html" />
+    <link rel="prev" title="💪 Comment j’ai fait" href="../1-Comment/Comment-g-fait.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../../../index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">CDC 0.1 documentation</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../../../Presentations-main.html">
+    🤝 Presentations
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../II-Analyse/Analyse-main.html">
+    🔎 Analyse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../III-Identitee/Identitee-main.html">
+    🎨 Identitée
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../IV-Conception/Conception-main.html">
+    🧭 Conception
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../V-Dev/Dev-main.html">
+    🔧 Dévelopement
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../VI-Marketing/Marketing-main.html">
+    📈 Marketing
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://drive.google.com/drive/folders/1tVEDeNz04hoDiSf5rC6Aa1fWoIU3sYrN?usp=drive_link" title="Drive" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-google-drive fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Drive</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://docs.google.com/spreadsheets/d/1NEZJVofrB-r15zuVjQ8gWDN5c8zM6vE1vBBqCKaASKk/edit?usp=drive_link" title="Calendrier" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-calendar-days fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Calendrier</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../../../Presentations-main.html">
+    🤝 Presentations
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../II-Analyse/Analyse-main.html">
+    🔎 Analyse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../III-Identitee/Identitee-main.html">
+    🎨 Identitée
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../IV-Conception/Conception-main.html">
+    🧭 Conception
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../V-Dev/Dev-main.html">
+    🔧 Dévelopement
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../../../VI-Marketing/Marketing-main.html">
+    📈 Marketing
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://drive.google.com/drive/folders/1tVEDeNz04hoDiSf5rC6Aa1fWoIU3sYrN?usp=drive_link" title="Drive" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-google-drive fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Drive</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://docs.google.com/spreadsheets/d/1NEZJVofrB-r15zuVjQ8gWDN5c8zM6vE1vBBqCKaASKk/edit?usp=drive_link" title="Calendrier" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-calendar-days fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Calendrier</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">🧐 Qui suis-je ?</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../1-Me/1-Histoire/Histoire-main.html">Mon Histoire</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/1-Histoire/1-Elan/Elan.html">Prise d’élan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/1-Histoire/2-Decollage/Decollage.html">Décollage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/1-Histoire/3-Icare/Icare.html">Le Mythe d’Icare</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/1-Histoire/4-Phoenix/Phoenix.html">et du Phoenix</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../1-Me/2-Opinions/Opinions-main.html">Mes Opinions</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../../1-Me/2-Opinions/1-Numerique/Numerique.html">Numérique</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/1-Numerique/1-Metiers/Metiers.html">Métiers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/1-Numerique/2-Competences/Competences.html">Compétences</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/1-Numerique/3-GAFAM/GAFAM.html">GAFAM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/1-Numerique/4-Souverainet%C3%A9/Souverainete.html">Souveraineté</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../../1-Me/2-Opinions/2-Education/Education.html">Education</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/2-Education/1-Primaire-Secondaire/Primaire-Secondaire.html">Primaire &amp; Secondaire</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/2-Education/2-Enseignement-lucratif/Enseignement-lucratif.html">Enseignement Lucratif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/2-Education/3-Formation-Pro/Formation-Professionel.html">Formation Professionnelle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/2-Education/4-Superieur/Enseignement-superieur.html">Enseignement Superieur</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../../1-Me/2-Opinions/3-Science/Science.html">Science</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/3-Science/1-Scientifique-Method/Scientifique-method.html">La Méthode Scientifique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/3-Science/2-Publication/Scientific-publication.html">Scientific Publication</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/3-Science/3-Open-Science/Open-science.html">Open Science</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/2-Opinions/3-Science/4-Reproducibility/Sc-Reproducibility.html">Reproducibility</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/2-Opinions/4-Democratie/Democratie.html">Démocratie</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../1-Me/3-Ikigai/Ikigai-main.html">Mon Ikigai</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/3-Ikigai/1-Paye/paye.html">je peux être Payé</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/3-Ikigai/2-Doue/doue.html">je suis Doué</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/3-Ikigai/3-Aime/Aime.html">j’Aime</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/3-Ikigai/4-Besoin/besoin.html">le Monde à Besoin</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../1-Me/4-Methode/Methode-main.html">Ma Méthode</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/4-Methode/1-Stack/Stack.html">Stack</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../../1-Me/4-Methode/2-Workflows/workflow-main.html">Workflows</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/4-Methode/2-Workflows/1-Start/Start.html">Se Lancer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/4-Methode/2-Workflows/2-Implementer/Implementer.html">Implémenter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/4-Methode/2-Workflows/3-Heberger/Heberger.html">Heberger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/4-Methode/2-Workflows/4-Iteration/Iterer.html">Iterer</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../1-Me/4-Methode/3-BDC/Ecocysteme.html">Base de Connaissance</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../../1-Me/4-Methode/4-Intelligences/Intel-main.html">Intelligences</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/4-Methode/4-Intelligences/1-IA/Intelligence-Artificielle.html">Artificielle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/4-Methode/4-Intelligences/2-IH/Intelligence-Humaine.html">Humaine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/4-Methode/4-Intelligences/3-IC/Intelligence-Collective.html">Collective</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../1-Me/4-Methode/4-Intelligences/4-IE/Intelligence-Environemental.html">Environemental</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🧩 4.A</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../2-4A/1-Nom-valeurs/Nom-main.html">Nom et Valeurs</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/1-Nom-valeurs/1-Web4/Web4.html">Web 4.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/1-Nom-valeurs/2-Planete-Apprenante/Planete-apprenante.html">Planète Apprenante</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/1-Nom-valeurs/3-Open-source/open-source.html">Open-Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/1-Nom-valeurs/4-Anarchie/Anarchie.html">Anarchie</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../2-4A/2-Besoin/Besoin-main.html">Hypothèses sur le Besoin</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/2-Besoin/1-Creation/Creation.html">Création</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/2-Besoin/2-Connaissances/Connaissances.html">Connaissances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/2-Besoin/3-Partage/Partage.html">Partage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/2-Besoin/4-Liens/Liens.html">Liens</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../2-4A/3-Offre/Offre-main.html">Description de l’Offre</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/3-Offre/1-Artisanat/Artisanat.html">Artisanat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/3-Offre/2-Apprendre/Apprendre.html">Apprentissages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/3-Offre/3-Accompagner/Accompagner.html">Accompagnement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/3-Offre/4-Assembler/Assembler.html">Assemblage</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../2-4A/4-Vision/Vision-main.html">Vision Globale</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/4-Vision/1-Atelier/Atelier.html">Atelier</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/4-Vision/2-Academie/Academie.html">Academie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/4-Vision/3-Alliance/Alliance.html">Alliance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../2-4A/4-Vision/4-Agora/Agora.html">Agora</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">💼 Gestion de Projet</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../3-GDP/1-Contexte/Contexte-main.html">Contexte</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/1-Contexte/1-Liberte/Liberte.html">Liberte</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/1-Contexte/2-CDUI/CDUI.html">CDUI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/1-Contexte/3-Environement/Environement.html">Environnement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/1-Contexte/4-Ambitions/Ambitions.html">Ambitions</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../3-GDP/2-Objectifs/objectifs-main.html">Objectifs</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/2-Objectifs/1-Creer/obj-creer.html">Créer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/2-Objectifs/2-Enseigner/obj-enseigner.html">Enseigner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/2-Objectifs/3-Federer/obj-federer.html">Fédérer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/2-Objectifs/4-Inspirer/obj-inspirer.html">Inspirer</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../3-GDP/3-Contraintes/Contraintes-main.html">Contraintes</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/3-Contraintes/1-Structure/Structure.html">Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/3-Contraintes/2-Statuts/Statuts.html">Statuts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/3-Contraintes/3-Delais/delais.html">Délais</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/3-Contraintes/4-Budgets/budgets.html">Budgets</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../../3-GDP/4-Pilotage/Outils-GDP-main.html">Outils</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/4-Pilotage/1-Organiser/Organiser.html">Organiser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/4-Pilotage/2-Apprendre/Apprendre.html">Apprendre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/4-Pilotage/3-Faire/Faire.html">Faire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../3-GDP/4-Pilotage/4-Communiquer/Communiquer.html">Communiquer</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">📦 Annexes</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../Listes-main.html">Listes</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../1-Figures/Figures.html">Figures</a></li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="../Dropdown-main.html">Dropdown</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../1-Comment/Comment-g-fait.html">💪 Comment j’ai fait</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">🧠 Reflexions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../3-Savoir-plus/Savoir-plus.html">👀 En Savoir Plus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../4-Usage-IA/Usage-IA.html">🤖 Usage IA</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../../3-iframes/iframe.html">Iframe</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../2-Glossaire/Glossaire-main.html">Glossaire</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../2-Glossaire/1-Acronymes/Glossaire-Acronymes.html">Acronymes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../2-Glossaire/2-Definitions-fr/Glossaire-Definition-fr.html">Definitions (fr)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../2-Glossaire/3-Definitions-en/Glossaire-Definition-en.html">Definitions (en)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../3-Biblio/bibliography.html">Bibliography</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../4-Versions/Versions-main.html">Versions</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../4-Versions/V_en-cours/Valpha.html">Version Alpha (en cours)</a></li>
+</ul>
+</details></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../../../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../../../Presentations-main.html" class="nav-link">🤝 Presentations</a></li>
+    
+    
+    <li class="breadcrumb-item"><i class="fa-solid fa-ellipsis"></i></li>
+    
+    
+    <li class="breadcrumb-item"><a href="../Dropdown-main.html" class="nav-link">Dropdown</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">🧠 Reflexions</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="reflexions">
+<h1>🧠 Reflexions<a class="headerlink" href="#reflexions" title="Link to this heading">#</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Explication rapide puis liste</p>
+</div>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../1-Comment/Comment-g-fait.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">💪 Comment j’ai fait</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../3-Savoir-plus/Savoir-plus.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">👀 En Savoir Plus</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../../../../_sources/content/I-Presentations/4-Annexes/1-Listes/2-Dropdown/2-Reflexions/Reflexions.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2026, V.Deguin.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.4.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

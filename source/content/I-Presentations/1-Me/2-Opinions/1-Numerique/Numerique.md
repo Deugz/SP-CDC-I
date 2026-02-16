@@ -1,12 +1,33 @@
 # Numérique
 
 
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+1-Metiers/Metiers
+2-Competences/Competences
+3-GAFAM/GAFAM
+4-Souveraineté/Souverainete
+
+```
+
+
+
 ```{note}
 
 Trouver des rapports qui expliquent l'hégémonie des GAFAM dans le domaine du numérique
 
 
 ```
+
+
+
+
+
+
+
+
 
 ## GAFAM
 
@@ -47,3 +68,15 @@ Infographie sur la Créator Economy Française en 2025 - **Source** : [www.umicc
 Extraire les informations importantes
 
 ```
+
+
+
+## Métiers
+
+
+
+
+
+
+
+

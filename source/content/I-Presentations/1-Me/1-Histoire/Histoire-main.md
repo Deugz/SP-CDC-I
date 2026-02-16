@@ -10,6 +10,24 @@
 4-Phoenix/Phoenix
 ```
 
+## Aujourd'hui
+
+
+```{note}
+
+Expliquer pourquoi Label Ecole et comment cela va m'aider a accomplire mes objectifs
+
+
+```
+
+
+
+
+
+
+## Et Avant ?
+
+
 
 ```{note}
 
