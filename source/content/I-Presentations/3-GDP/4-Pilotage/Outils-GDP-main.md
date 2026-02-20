@@ -4,9 +4,9 @@
 :maxdepth: 2
 :hidden:
 
-1-Organiser/Organiser
+1-Faire/Faire
 2-Apprendre/Apprendre
-3-Faire/Faire
+3-Organiser/Organiser
 4-Communiquer/Communiquer
 
 

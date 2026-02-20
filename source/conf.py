@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'CDC'
+project = '4.A'
 copyright = '2026, V.Deguin'
 author = 'V.Deguin'
 release = '0.1'

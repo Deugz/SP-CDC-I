@@ -1,3 +1,12 @@
+---
+title: 4.A Documentation
+myst:
+  html_meta:
+    "description lang=fr": |
+      Documentation du projet 4.A
+html_theme.sidebar_secondary.remove: true
+---
+
 ```{toctree}
 :maxdepth: 4
 :hidden:
@@ -52,7 +61,7 @@ content/VI-Marketing/Marketing-main
 <br>
 <br>
 
-# 4.Académie
+# Projet 4.A 
 
 C'est parti papa (11/01/2026)
 
@@ -69,8 +78,20 @@ Projet en une phrase
 Un ensemble de solutions numériques open sources et gratuites, permettant à tout **Artisan de la connaissance**, d'écrire et de partager le récit vivant de ses apprentissages !
 
 
-## Bonjour 
+## Abstract
+
+```{note}
+
+Petit paragraphe qui résume le ^projet dans son ensemble
+
+```
 
 
+## Sommaire
 
-## Cahier des Charges
+<iframe 
+    src="_static/Python-Processing/Arbo-site/output/Arborescence-site.html"
+    width="100%" 
+    height="900"
+    frameborder="0">
+</iframe>

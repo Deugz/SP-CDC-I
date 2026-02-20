@@ -1,5 +1,15 @@
 # La Communauté
 
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+1-Artistes/Comu-artistes
+2-Educateurs/Comu-educateurs
+3-Scientifiques/Comu-Scientifique
+4-Militante/Comu-militante
+```
+
 
 
 ```{note}

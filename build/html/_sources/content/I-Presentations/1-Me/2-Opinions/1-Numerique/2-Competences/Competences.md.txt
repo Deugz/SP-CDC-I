@@ -1,1 +1,7 @@
 # Compétences
+
+```{note}
+
+S'appuyer sur le document Digicomp pour explorer les différentes compétences nécéssaires
+
+```

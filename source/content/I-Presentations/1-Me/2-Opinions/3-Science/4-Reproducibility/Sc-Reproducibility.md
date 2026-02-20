@@ -3,6 +3,32 @@
 - (crisis or not crisis)
 
 
+## Programs 
+
+### Tier2
+
+
+- [Site web](https://tier2-project.eu/)
+
+```{note}
+
+Inclure la vidéo deprésentation
+
+- Bon exemple pour ma propre vidéo
+
+```
+
+
+```{note}
+
+- Explorer les différentes ressources de cette [page](https://tier2-project.eu/media-center/presentations)
+    - Extraire, inclure en iframe dans un dropdown tab item (🧠) et commenter
+
+
+```
+
+
+
 ## Strategic Priorities
 
 ```{figure} Docs/journal.pbio.3001943.g001.png
@@ -32,20 +58,13 @@ Particulièrement intéréssant pour nous (notre sujet d'étude)
 ```
 
 
-## Programs 
-
-### Tier2
 
 
-- [Site web](https://tier2-project.eu/)
+#### Ressources
 
-```{note}
 
-Inclure la vidéo deprésentation
 
-- Bon exemple pour ma propre vidéo
 
-```
 
 
 ## Solutions

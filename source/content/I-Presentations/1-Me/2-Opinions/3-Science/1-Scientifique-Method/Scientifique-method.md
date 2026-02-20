@@ -47,3 +47,21 @@ Document collaboratif produit et hebergé sur google drive (il y a mieux comme s
 Explorer - Voire les similitudes avec ce que l'on souhaite faire
 
 ```
+
+## Acteurs
+
+- [Science Europe](https://scienceeurope.org/)
+
+```{note}
+
+To explore
+
+```
+
+
+## Outils
+
+- [elsevier-fingerprint-engine](https://www.elsevier.com/products/elsevier-fingerprint-engine) - [Fingerprint-Engine-fact-sheet](https://assets.ctfassets.net/o78em1y1w4i4/ReA51vd4CIPwdpIn3mChf/e63e4110f79370a1780e901343d14658/Elsevier-Fingerprint-Engine-fact-sheet.pdf)
+
+
+
