@@ -80,6 +80,11 @@ Un ensemble de solutions numériques open sources et gratuites, permettant à to
 
 ## Abstract
 
+```{note}
+
+Petit paragraphe qui résume le ^projet dans son ensemble
+
+```
 
 
 ## Sommaire
