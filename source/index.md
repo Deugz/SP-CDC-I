@@ -63,29 +63,30 @@ content/VI-Marketing/Marketing-main
 
 # Projet 4.A 
 
-C'est parti papa (11/01/2026)
-
-
-
-```{note}
-
-Projet en une phrase
-
-- css p-emphase
-
-```
-
-Un ensemble de solutions numériques open sources et gratuites, permettant à tout **Artisan de la connaissance**, d'écrire et de partager le récit vivant de ses apprentissages !
-
-
 ## Abstract
 
-```{note}
+::::{grid} 2
 
-Petit paragraphe qui résume le ^projet dans son ensemble
+:::{grid-item}
+:columns: 6
 
-```
 
+À l’heure où les grandes plateformes numériques structurent les conditions de création, de publication et de diffusion des connaissances, le projet 4.A propose une alternative scientifique, créative et gratuite de la **construction du savoir**, fondée sur la maîtrise des outils open-source suivant : Python, Markdown, Sphinx et GitHub. Il introduit la notion de *récit vivant d’apprentissage* comme outil méthodologique pour nourrir et développer la [pensée complexe](https://fr.wikipedia.org/wiki/Pens%C3%A9e_complexe#:~:text=La%20pens%C3%A9e%20complexe%20est%20un,'une%20%C3%A0%20l'autre.). 
+
+:::
+
+:::{grid-item}
+:columns: 6
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="_static/lottie/index-Brain.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
+:::
+
+::::
 
 ## Sommaire
 
@@ -95,3 +96,13 @@ Petit paragraphe qui résume le ^projet dans son ensemble
     height="900"
     frameborder="0">
 </iframe>
+
+
+## Introduction
+
+- **Un ensemble de solutions numériques open sources et gratuites, permettant à tout **Artisan de la connaissance**, d'écrire et de partager le récit vivant de ses apprentissages !**
+
+
+Quand je commence l’écriture de ce journal, en décembre 2025, je le fais avec l’idée de raconter une histoire singulière, mon histoire, qui prend racine dans un parcours éducatif riche, divers et semé d'embûches. Cette histoire est la source de mon projet, un projet complexe, multidimensionnel, que je n’ai pu discuter de manière holistique qu'à de très rares occasions, avec un nombre très limité de personnes. C’est donc avec un immense plaisir et en même temps un peu d’appréhension que j’écris ces premières lignes. J’ai l’intention de le faire avec une grande liberté (qui me caractérise) et l’envie de partager ce qui m’anime.
+
+### Sections
