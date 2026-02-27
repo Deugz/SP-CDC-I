@@ -63,26 +63,31 @@ content/VI-Marketing/Marketing-main
 
 # Projet 4.A 
 
+<br>
+<br>
+
+<p class="p-dial"><em>"Un ensemble de solutions numériques open sources et gratuites, permettant à tout <strong>Artisan de la connaissance</strong>, d'écrire et de partager le <strong>récit vivant de ses apprentissages</strong> !"</em></p>
+
 ## Abstract
 
 ::::{grid} 2
 
 :::{grid-item}
-:columns: 6
+:columns: 5
 
 
-À l’heure où les grandes plateformes numériques structurent les conditions de création, de publication et de diffusion des connaissances, le projet 4.A propose une alternative scientifique, créative et gratuite de la **construction du savoir**, fondée sur la maîtrise des outils open-source suivant : Python, Markdown, Sphinx et GitHub. Il introduit la notion de *récit vivant d’apprentissage* comme outil méthodologique pour nourrir et développer la [pensée complexe](https://fr.wikipedia.org/wiki/Pens%C3%A9e_complexe#:~:text=La%20pens%C3%A9e%20complexe%20est%20un,'une%20%C3%A0%20l'autre.). 
+À l’heure où les grandes plateformes numériques structurent les conditions de création, de publication et de diffusion des connaissances, le projet 4.A propose une alternative scientifique, créative et gratuite de la **construction du savoir**, fondée sur la maîtrise des outils open-source suivant : Python, Markdown, Sphinx et GitHub. Il introduit le concept de *récit vivant d’apprentissage* comme outil méthodologique  nourrir et développer la [pensée complexe](https://fr.wikipedia.org/wiki/Pens%C3%A9e_complexe#:~:text=La%20pens%C3%A9e%20complexe%20est%20un,'une%20%C3%A0%20l'autre.) à l'échelle individuelle. 
 
 :::
 
 :::{grid-item}
-:columns: 6
+:columns: 7
 
 <script
   src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
   type="module"
 ></script>
-<dotlottie-wc src="_static/lottie/index-Brain.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+<dotlottie-wc src="_static/lottie/index-Brain.lottie" style="width: 120%;" autoplay loop></dotlottie-wc>
 
 :::
 
@@ -99,9 +104,6 @@ content/VI-Marketing/Marketing-main
 
 
 ## Introduction
-
-- **Un ensemble de solutions numériques open sources et gratuites, permettant à tout **Artisan de la connaissance**, d'écrire et de partager le récit vivant de ses apprentissages !**
-
 
 Quand je commence l’écriture de ce journal, en décembre 2025, je le fais avec l’idée de raconter une histoire singulière, mon histoire, qui prend racine dans un parcours éducatif riche, divers et semé d'embûches. Cette histoire est la source de mon projet, un projet complexe, multidimensionnel, que je n’ai pu discuter de manière holistique qu'à de très rares occasions, avec un nombre très limité de personnes. C’est donc avec un immense plaisir et en même temps un peu d’appréhension que j’écris ces premières lignes. J’ai l’intention de le faire avec une grande liberté (qui me caractérise) et l’envie de partager ce qui m’anime.
 
