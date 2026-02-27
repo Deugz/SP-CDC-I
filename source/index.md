@@ -99,6 +99,14 @@ content/VI-Marketing/Marketing-main
 
 ::::
 
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.3/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="https://lottie.host/42426f9c-6360-4be9-928f-9a2ce2261974/cFz9k2UlDH.lottie" style="width: 300px;height: 300px" autoplay loop></dotlottie-wc>
+
+
 ## Sommaire
 
 <iframe 
