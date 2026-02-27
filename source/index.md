@@ -87,7 +87,7 @@ content/VI-Marketing/Marketing-main
   src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
   type="module"
 ></script>
-<dotlottie-wc id="ancher-right" src="_static/lottie/index-Brain.lottie" style="width: 200%;" autoplay loop></dotlottie-wc>
+<dotlottie-wc id="ancher-right" src="_static/lottie/index-Brain.lottie" style="width: 180%;" autoplay loop></dotlottie-wc>
 
 :::
 
