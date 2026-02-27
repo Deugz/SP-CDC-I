@@ -70,7 +70,7 @@ content/VI-Marketing/Marketing-main
 
 ## Abstract
 
-::::{grid} 2
+::::{grid} 3
 
 :::{grid-item}
 :columns: 5
@@ -81,13 +81,19 @@ content/VI-Marketing/Marketing-main
 :::
 
 :::{grid-item}
-:columns: 7
+:columns: 6
 
 <script
   src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
   type="module"
 ></script>
 <dotlottie-wc id="ancher-right" src="_static/lottie/index-Brain.lottie" style="width: 150%;" autoplay loop></dotlottie-wc>
+
+:::
+
+:::{grid-item}
+:columns: 1
+
 
 :::
 
