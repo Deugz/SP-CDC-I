@@ -81,7 +81,7 @@ content/VI-Marketing/Marketing-main
 :::
 
 :::{grid-item}
-:columns: 5
+:columns: 6
 
 <script
   src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
@@ -92,7 +92,7 @@ content/VI-Marketing/Marketing-main
 :::
 
 :::{grid-item}
-:columns: 2
+:columns: 1
 
 
 :::
