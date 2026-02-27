@@ -3,3 +3,12 @@
     padding: 10px;
     text-align:center;
 }
+
+
+
+#ancher-right {
+  position: fixed;      /* Reste fixe même au scroll */
+  bottom: 20px;         /* Distance depuis le bas */
+  right: 20px;          /* Distance depuis la droite */
+
+}
