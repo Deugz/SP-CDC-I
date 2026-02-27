@@ -7,8 +7,8 @@
 
 
 #ancher-right {
-  position: fixed;      /* Reste fixe même au scroll */
-  bottom: 20px;         /* Distance depuis le bas */
-  right: 20px;          /* Distance depuis la droite */
+  position: absolute;
+  bottom: 0;
+  right: 0;
 
 }
