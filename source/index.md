@@ -76,23 +76,95 @@ content/VI-Marketing/Marketing-main
 :columns: 5
 
 
-À l’heure où les grandes plateformes numériques structurent les conditions de création, de publication et de diffusion des connaissances, le projet 4.A propose une alternative scientifique, créative et gratuite de la **construction du savoir**, fondée sur la maîtrise des outils open-source suivant : Python, Markdown, Sphinx et GitHub. Il introduit le concept de *récit vivant d’apprentissage* comme outil méthodologique  nourrir et développer la [pensée complexe](https://fr.wikipedia.org/wiki/Pens%C3%A9e_complexe#:~:text=La%20pens%C3%A9e%20complexe%20est%20un,'une%20%C3%A0%20l'autre.) à l'échelle individuelle. 
+>À l’heure où les grandes plateformes numériques structurent les conditions de création, de publication et de diffusion des connaissances, le projet 4.A propose une alternative scientifique, créative et gratuite de la **construction du savoir**, fondée sur la maîtrise des outils open-source suivant : Python, Markdown, Sphinx et GitHub. Il introduit le concept de *récit vivant d’apprentissage* comme outil méthodologique pour nourrir et développer la [pensée complexe](https://fr.wikipedia.org/wiki/Pens%C3%A9e_complexe#:~:text=La%20pens%C3%A9e%20complexe%20est%20un,'une%20%C3%A0%20l'autre.) à l'échelle individuelle et collective. 
 
 :::
 
 :::{grid-item}
-:columns: 6
+:columns: 7
+
+<div class="lottie-container">
 
 <script
-  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.3/dist/dotlottie-wc.js"
   type="module"
 ></script>
-<dotlottie-wc id="ancher-right" src="_static/lottie/index-brain.lottie" style="width: 200%;" autoplay loop></dotlottie-wc>
+<dotlottie-wc id="lottie-adjust" src="https://lottie.host/42426f9c-6360-4be9-928f-9a2ce2261974/cFz9k2UlDH.lottie" style="width: 200%; left: -44%;" autoplay loop></dotlottie-wc>
+
+</div>
+
+:::
+
+::::
+
+
+::::::{tab-set}
+
+:::::{tab-item} Mes Opinions
+
+<div class="index-tab" id="indexTab">
+
+<button class="btn-complexity" id="btn-complexity-toggleBtn">Changer l’image</button>
+
+<script>
+const button = document.getElementById("btn-complexity-toggleBtn");
+const container = document.getElementById("indexTab");
+
+let state = 0; // 0 = image par défaut
+
+button.addEventListener("click", () => {
+  
+  // Reset des classes
+  container.classList.remove("alt-bg-1", "alt-bg-2");
+
+  // Avance d’un état
+  state++;
+
+  if (state === 1) {
+    container.classList.add("alt-bg-1");
+  } 
+  else if (state === 2) {
+    container.classList.add("alt-bg-2");
+  } 
+  else {
+    state = 0; // Retour à l’image initiale
+  }
+
+});
+</script>
+
+
+<br>
+<br>
+<br>
+<br>
+
+::::{grid} 
+:gutter: 3
+
+:::{grid-item}
+
+:::
+
+
+:::{grid-item-card}
+:link: https://deugz.github.io/SP-CDC-I/build/html/content/I-Presentations/1-Me/2-Opinions/1-Numerique/Numerique.html
+:class-header: bg-light
+:link-alt: clickable cards
+:columns: 2
+**Numérique**
+^^^
+
+```{image} _static/svg/Index-page/numerique-symbol-green.svg
+:width: 100%
+:align: center
+
+
+```
 
 :::
 
 :::{grid-item}
-:columns: 1
 
 
 :::
@@ -100,12 +172,148 @@ content/VI-Marketing/Marketing-main
 ::::
 
 
-<script
-  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.3/dist/dotlottie-wc.js"
-  type="module"
-></script>
-<dotlottie-wc src="https://lottie.host/42426f9c-6360-4be9-928f-9a2ce2261974/cFz9k2UlDH.lottie" style="width: 300px;height: 300px" autoplay loop></dotlottie-wc>
+::::{grid} 5
 
+:::{grid-item}
+:columns: 
+
+:::
+
+
+:::{grid-item-card}
+:link: https://deugz.github.io/SP-CDC-I/build/html/content/I-Presentations/1-Me/2-Opinions/4-Democratie/Democratie.html
+:class-header: bg-light
+:link-alt: clickable cards
+:columns: 2
+**Démocratie**
+^^^
+
+```{image} _static/svg/Index-page/societe-symbol-green.svg
+:width: 100%
+:align: center
+
+
+```
+
+:::
+
+:::{grid-item}
+:columns: 3
+
+
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/SP-CDC-I/build/html/content/I-Presentations/1-Me/2-Opinions/2-Education/Education.html
+:class-header: bg-light
+:link-alt: clickable cards
+:columns: 2
+**Education**
+^^^
+
+```{image} _static/svg/Index-page/education-symbol-green.svg
+:width: 100%
+:align: center
+
+```
+
+:::
+
+:::{grid-item}
+:columns: 
+
+:::
+
+::::
+
+::::{grid}
+:gutter: 3
+
+
+:::{grid-item}
+
+
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/SP-CDC-I/build/html/content/I-Presentations/1-Me/2-Opinions/3-Science/Science.html
+:class-header: bg-light
+:link-alt: clickable cards
+:columns: 2
+**Science**
+^^^
+
+```{image} _static/svg/Index-page/science-symbol-green.svg
+:width: 100%
+:align: center
+
+
+```
+
+:::
+
+:::{grid-item}
+
+
+:::
+
+::::
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+:::::
+
+:::::{tab-item} Valeurs
+
+```{note}
+
+A faire, une fois que le format général est mis en place 
+
+
+```
+
+:::::
+
+:::::{tab-item} Besoins
+
+```{note}
+
+A faire, une fois que le format général est mis en place 
+
+
+```
+
+:::::
+
+:::::{tab-item} Offre
+
+```{note}
+
+A faire, une fois que le format général est mis en place 
+
+
+```
+
+:::::
+
+:::::{tab-item} Vision
+
+```{note}
+
+A faire, une fois que le format général est mis en place 
+
+
+```
+
+:::::
+
+::::::
 
 ## Sommaire
 

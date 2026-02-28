@@ -21,6 +21,7 @@ extensions = [
     "sphinx_design",
     "sphinx.ext.autosectionlabel",
     "sphinxcontrib.bibtex",
+    "sphinx_new_tab_link",
 ]
 
 myst_enable_extensions = [
@@ -53,16 +54,10 @@ html_theme_options = {
     "header_links_before_dropdown": 6, 
     "icon_links": [
         {
-            "name": "Drive",
-            "url": "https://drive.google.com/drive/folders/1tVEDeNz04hoDiSf5rC6Aa1fWoIU3sYrN?usp=drive_link",
-            "icon": "fa-brands fa-google-drive",
+            "name": "Framaspace",
+            "url": "https://4-a.frama.space/",
+            "icon": "fa-solid fa-cloud",
         },
-        {
-            "name": "Calendrier",
-            "url": "https://docs.google.com/spreadsheets/d/1NEZJVofrB-r15zuVjQ8gWDN5c8zM6vE1vBBqCKaASKk/edit?usp=drive_link",
-            "icon": "fa-regular fa-calendar-days",
-        },
-
     ]
 
 }

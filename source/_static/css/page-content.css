@@ -4,10 +4,34 @@
     text-align:center;
 }
 
+.lottie-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 
+.index-tab {
+  position: relative;
+  background-image: url("../svg/Index-page/clockwise-arrow-light.svg");
+  background-size: cover;        
+  background-position: center;  
+  background-repeat: no-repeat;  
+}
 
-#ancher-right {
-  top: -15%;  
-  left: -50%;
-  z-index: -1;
+.btn-complexity{
+    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.index-tab.alt-bg-1 {
+  background-image: url("../svg/Index-page/clockwise-arrow.svg");
+}
+
+/* 3ème image */
+.index-tab.alt-bg-2 {
+  background-image: url("../svg/Index-page/clockwise-arrow-3.svg");
 }
