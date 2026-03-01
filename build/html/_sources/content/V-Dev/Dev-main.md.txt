@@ -17,11 +17,10 @@
 :caption: 🎓 LMS
 :hidden:
 
-2-LMS/1-LMS-Analyse/LMS-Analyse-main
-2-LMS/2-LMS-des-dev/LMS-Design-Developement-main
-2-LMS/3-LMS-Implementation/LMS-Implementation-main
-2-LMS/4-LMS-Eval/LMS-Eval-Evolution-main
-
+2-LMS/1-ADDIE/ADDIE-main
+2-LMS/2-Qualiopie/Qualiopie-main
+2-LMS/3-Apprenants/Apprenant-main
+2-LMS/4-Diplome/diplome-main
 ```
 
 ```{toctree}

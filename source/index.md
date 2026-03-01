@@ -75,6 +75,8 @@ content/VI-Marketing/Marketing-main
 :::{grid-item}
 :columns: 5
 
+<br>
+<br>
 
 >À l’heure où les grandes plateformes numériques structurent les conditions de création, de publication et de diffusion des connaissances, le projet 4.A propose une alternative scientifique, créative et gratuite de la **construction du savoir**, fondée sur la maîtrise des outils open-source suivant : Python, Markdown, Sphinx et GitHub. Il introduit le concept de *récit vivant d’apprentissage* comme outil méthodologique pour nourrir et développer la [pensée complexe](https://fr.wikipedia.org/wiki/Pens%C3%A9e_complexe#:~:text=La%20pens%C3%A9e%20complexe%20est%20un,'une%20%C3%A0%20l'autre.) à l'échelle individuelle et collective. 
 
@@ -97,6 +99,12 @@ content/VI-Marketing/Marketing-main
 
 ::::
 
+
+
+### La Pensée Complexe ?
+
+<br>
+<br>
 
 ::::::{tab-set}
 
@@ -315,6 +323,22 @@ A faire, une fois que le format général est mis en place
 
 ::::::
 
+
+### Les Diférents Niveaux
+
+
+```{note}
+
+Format flashcard avec des informations sur les différents niveaux
+- niveau 1
+- niveau 2
+- niveau 3
+
+p-emphase pour introduire le niveau 4 dans le sommaire ci-dessous
+
+```
+
+
 ## Sommaire
 
 <iframe 
@@ -324,6 +348,31 @@ A faire, une fois que le format général est mis en place
     frameborder="0">
 </iframe>
 
+
+```{note}
+
+Explication rapide de comment intéragir avec la figure
+
+```
+
+### Quelle récit ?
+
+```{note}
+
+Bulle vidéo avec ma tête ?
+
+- explication des différentes méthode de communication (newsletter production - site wordpress w/ blog)
+
+```
+
+
+### Petite parenthèse UI / UX
+
+```{note}
+
+Explication des différents éléments, liens vers les listes et explication du passage de diplome CDUI
+
+```
 
 ## Introduction
 

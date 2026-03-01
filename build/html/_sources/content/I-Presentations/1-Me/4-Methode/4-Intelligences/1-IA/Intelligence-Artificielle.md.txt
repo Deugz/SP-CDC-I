@@ -32,3 +32,13 @@ Intégrer les différentes vidéos dans un dropdown (en savoir plus)
 Tuto Youtube + explications 
 
 ```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LorEJPrALcg?si=LBZiX5d9L9kKvQMf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+```{note}
+
+Lire, mettre en place et docuùenter
+    - introduire dans budget (Claude 10 test)
+
+```
