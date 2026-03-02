@@ -22,7 +22,7 @@ Import tableau Frama
 ```
 
 <iframe 
-    src="https://4-a.frama.space/apps/tables/#/view/2"
+    src="https://4-a.frama.space/apps/tables/api/1/views/2"
     width="100%" 
     height="600"
     frameborder="0">
