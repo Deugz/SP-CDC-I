@@ -20,6 +20,23 @@ Reprendre les différentes étapes de la vie éducative d'un jeune
 ```
 
 
+
+
 ## Un Système Mondialisé
 
 
+
+
+
+
+## Ressources
+
+```{note}
+
+[Infed.org](https://infed.org/dir/welcome/)
+
+- Très bon site avec des ressources sur différentes personalités en lien avec l'éducation. Très intéréssant pour réaliser des portraits en lien avec certains personnages importants 
+    - Inclure dans bibliography ?
+
+
+```

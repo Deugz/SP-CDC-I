@@ -42,7 +42,7 @@
 
 4-Annexes/1-Listes/Listes-main
 4-Annexes/2-Glossaire/Glossaire-main
-4-Annexes/3-Biblio/bibliography
+4-Annexes/3-Biblio/bibliography-main
 4-Annexes/4-Versions/Versions-main
 ```
 

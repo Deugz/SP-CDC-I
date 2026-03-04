@@ -1,122 +1,19 @@
 # Délais
 
-## Diplome CDUI
+```{toctree}
+:maxdepth: 2
+:hidden:
 
-### Programme Cours Label Ecole
-
-```{note}
-
-Au fur et à mesure de la progression, changer le formatage avec carte et niveau d'acancement (faire copié/collé depuis page de présentation et modifier de manière concomittente)
-
-```
-
-#### Mars
-
-- [1 - Web et e-commerce](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Intro/e-commerce/e-commerce.html)
-- [2 - Cahier des charges](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/GDP/CDC/CDC.html) - renommer GDP
-- IA dans getion de projet (nouveau)
-- [Maitriser Canva](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Graphisme/Bonus/Canva/Canva.html)
-- [3 - Système de Veille](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/GDP/Veille/Veille.html)
-- [4 - Identifier ses utilisateurs](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/GDP/Utilisateurs/Utilisateurs.html)
-- [5 - Benchmark Digital](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/GDP/Benchmark/Benchmark.html)
-- [6 - Charte Graphique](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Graphisme/Charte-Graphique/Charte-graphique.html)
-
-
-```{admonition} Objectifs
-:class: warning
-
-- Travailler et avoir atteint deux itérations sur la Partie **Présentation**
-- Mettre à jour les cours ci-dessus (déja bien implémenté et sujets connus - faire des liens vers partie analyse).
-    - Réfléchir a un design system - implémenter [LMS](https://deugz.github.io/SP-CDC-I/build/html/content/V-Dev/2-LMS/2-LMS-des-dev/LMS-Design-Developement-main.html)
-- Travailler et faire une première grosse itération sur la partie **Analyse** 
+I-03-08-2026
+II-09-12-2026
 
 ```
 
-
-```{admonition} Test Utilisateur 1
-:class: `tip
-
-Newsletter N1 avec les 16 personnesde de mon entourage le plus proche (Amis). Deadline : 16/03
+## Diplôme CDUI
 
 
-- Version V.♥️
-
-```
 
 
-#### Avril
-
-- [7 - Démarrer sur Illustrator](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Graphisme/Logiciels/Illustrator/Illustrator.html)
-- [8 - Démarrer sur Photoshop](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Graphisme/Logiciels/Photoshop/Photoshop.html)
-- [9 - Support Print](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Graphisme/Print/Print.html)
-
-<p class="p-dial">Exam Blanc 1</p>
-
-- [10 - Introduction à l’UX Design](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Design/Introduction-UX/Introduction-UX.html)
-- [11 - Concevoir la Navigation (UX)](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Design/Navigation/Navigation.html)
-- [Accessibilité](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Design/Bonus/Accessibilite/Accessibilit%C3%A9.html) / Responsive (a créer)
-- [12 - Concevoir l’Interface (UI)](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Design/Interface/Interface.html)
+## Pré-Incubation
 
 
-```{admonition} Objectifs
-:class: warning
-
-- Présentation Canva avec les livrables prévus pour Exam Blanc 1 - lien vers pres ?
-
-```
-
-#### Mai
-
-- [13 - Test Utilisateur](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Design/Test-Utilisateur/Test-Utilisateur.html)
-
-```{warning}
-
-- En prévoir plusieurs dès le début du projet avec des cibles et des objectifs spécifiques !
-
-```
-
-- [19 - HTML / CSS / JS](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Dev-Web/HTML-CSS-JS/Developpement-Main.html)
-- [20 - WordPress](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Dev-Web/Wordpress/Wordpress.html)
-
-
-```{admonition} Postuler
-:class: `tip
-
-- Manufacture - Incubateur Belle de Mai
-    - [lien](https://www.belledemai.org/la-manufacture/#slidernumber1)
-
-```
-
-
-####  Juin
-
-- [18 - Droit de l’internet & RGPD](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Dev-Web/RGPD/RGPD.html)
-
-<p class="p-dial">Exam Blanc 2</p>
-
-- [15 - Storyboard Vidéo](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Video-Photo/Video/Storyboard.html)
-- [17 - Montage Vidéo](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Video-Photo/Video/Montage.html)
-- [14 - Bases de Photographie](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/Video-Photo/Photo/Base-Photo.html)
-
-- [22 - Référencement (SEO)](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/WebMarketing/SEO/SEO.html)
-- [21 - Stratégie Réseau Sociaux](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/WebMarketing/Reseau-Social/Reseau-Social.html)
-
-
-#### Juillet
-
-- [23 - Campagne d’emailing](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/WebMarketing/Emailing/Emailing.html#)
-- [24 - Web Analytics](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/WebMarketing/Analytics/Google-Analytics.html)
-
-<p class="p-dial">Exam Blanc 3</p>
-
-
-### Exam
-
-<p class="p-dial">27 - 28 - 29 Juillet !</p>
-
-
-```{note}
-
-Préparer To-Do avec les différents livrables !
-
-```

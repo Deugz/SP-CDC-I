@@ -40,8 +40,8 @@ exclude_patterns = ["_build",".ipynb_checkpoints","**/.ipynb_checkpoints",]
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "pydata_sphinx_theme"
-html_logo = "_static/logos/Label-Ecole-Logo.png"
-html_favicon = "_static/logos/Label-Ecole-Logo.png"
+html_logo = "_static/logo/Under_construction.svg"
+html_favicon = "_static/logo/Under_construction.svg"
 templates_path = ["_static/_templates"]
 
 html_theme_options = {
