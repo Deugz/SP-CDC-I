@@ -7,7 +7,7 @@
 1-Artistes/Comu-artistes
 2-Educateurs/Comu-educateurs
 3-Scientifiques/Comu-Scientifique
-4-Militante/Comu-militante
+4-Mediatique/Comu-miediatique
 ```
 
 

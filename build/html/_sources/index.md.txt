@@ -49,6 +49,13 @@ content/V-Dev/Dev-main
 content/VI-Marketing/Marketing-main
 ```
 
+```{toctree}
+:maxdepth: 4
+:hidden:
+
+content/VII-Com/Com-main
+```
+
 <br>
 
 ```{image} _static/title/journal-de-prod.svg
@@ -324,7 +331,7 @@ A faire, une fois que le format général est mis en place
 ::::::
 
 
-### Les Diférents Niveaux
+### Plusieurs Niveaux d'Explorations
 
 
 ```{note}
@@ -338,8 +345,18 @@ p-emphase pour introduire le niveau 4 dans le sommaire ci-dessous
 
 ```
 
+#### 4. le Temps
+
 
 ## Sommaire
+
+```{note}
+
+Explication rapide de comment intéragir avec la figure
+
+- créer un bouton floatant en ccs qui ouvre un tooltip au survol ?
+
+```
 
 <iframe 
     src="_static/Python-Processing/Arbo-site/output/Arborescence-site.html"
@@ -348,14 +365,50 @@ p-emphase pour introduire le niveau 4 dans le sommaire ci-dessous
     frameborder="0">
 </iframe>
 
+<br>
+
+(dropdown-reflexion-Elan-1)=
+:::::{dropdown} 💪 Comment j'ai fait ça ? (pas en une fois je te rassure)
+:class-container: dropdown-arrow
+
+
+
+- tab processing python
 
 ```{note}
 
-Explication rapide de comment intéragir avec la figure
+explication interaction excel-python
+
+- Lien vers GDP
 
 ```
 
-### Quelle récit ?
+
+:::::
+
+
+
+### Documentation Numérique Itérative
+
+```{note}
+
+Intégrer vidéo gource de première grosse itération (version alpha -> beta)
+
+```
+
+
+#### Petite Parenthèse UI / UX
+
+```{note}
+
+Explication des différents éléments, liens vers les listes et explication du passage de diplome CDUI
+
+```
+
+
+
+
+### Quelle(s) récit(s) ?
 
 ```{note}
 
@@ -363,16 +416,15 @@ Bulle vidéo avec ma tête ?
 
 - explication des différentes méthode de communication (newsletter production - site wordpress w/ blog)
 
-```
+- Agent IA nourrie de la documentation ?
 
-
-### Petite parenthèse UI / UX
-
-```{note}
-
-Explication des différents éléments, liens vers les listes et explication du passage de diplome CDUI
+- [Wikicommute](https://wikicommute.vercel.app/?ref=medianes.org)
+    - Inclure et faire lien dans benchmark technologique
 
 ```
+
+
+#### Les Bonnes Pages
 
 ## Introduction
 

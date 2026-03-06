@@ -20,9 +20,8 @@
 
 2-Visuelle/1-Ideation/Ideation-main
 2-Visuelle/2-Logo/Logo-main
-2-Visuelle/3-Couleurs/Couleurs-main
-2-Visuelle/4-Typos/Typos-main
-
+2-Visuelle/3-Couleurs-Typo/Couleurs-Typo-main
+2-Visuelle/4-Assets/ID-assets-main
 ```
 
 
@@ -48,6 +47,6 @@
 4-Prints/1-CDV/Carte-visite-main
 4-Prints/2-Stickers/Stickers-main
 4-Prints/3-Flyer/Flyer-main
-4-Prints/4-Poster/Poster-main
+4-Prints/4-Merch/Merch-main
 
 ```

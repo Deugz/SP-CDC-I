@@ -51,14 +51,19 @@ html_theme_options = {
 
     ],
     
-    "header_links_before_dropdown": 6, 
+    "header_links_before_dropdown": 7, 
     "icon_links": [
         {
             "name": "Framaspace",
             "url": "https://4-a.frama.space/",
             "icon": "fa-solid fa-cloud",
         },
-    ]
+    ],
+
+    "logo": {
+        "text": " &nbsp <strong>4.A Doc</strong> - <em> in progress</em> ",
+        "alt_text": "en construction",
+    },
 
 }
 

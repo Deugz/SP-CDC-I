@@ -19,8 +19,9 @@
 
 2-LMS/1-ADDIE/ADDIE-main
 2-LMS/2-Qualiopie/Qualiopie-main
-2-LMS/3-Apprenants/Apprenant-main
-2-LMS/4-Diplome/diplome-main
+2-LMS/3-Technique/ENA
+2-LMS/4-Apprenants-Diplome/Apprenant-diplome-main
+
 ```
 
 ```{toctree}
@@ -30,7 +31,7 @@
 
 3-Extras/1-These/These-main
 3-Extras/2-Toolbox/toolbox-main
-3-Extras/3-Jeux/Jeux-main
+3-Extras/3-Crea/Jeux-main
 3-Extras/4-Apps/apps-main
 
 ```
