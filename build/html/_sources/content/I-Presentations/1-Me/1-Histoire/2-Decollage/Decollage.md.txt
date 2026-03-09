@@ -1,3 +1,47 @@
 # Décollage
 
-A vaincre sans péril, on triomphe sans gloire. Cette phrase de Corneille (l’écrivain, pas le chanteur) résume assez bien mes premières années de licence. Je n’ai jamais trouvé satisfaction à obtenir des bonnes notes, bien au contraire, voire mes camarades s’infliger des longues périodes de révisions dans l’espoir de voir les portes du marché de l'emploie s'ouvrir en grand, m’a toujours fait pitié. J’y ai toujours vu une sorte d’asservissement volontaire, provoqué par un système capitaliste hyper compétitif, qui se moque bien des ravages que cela peut impliquer sur les populations. Ce qui m’intéresse c’est comprendre plutôt qu’apprendre par coeur, explorer et repousser les frontières de mes propres connaissances, au lieu de faire des exercices pour travailler les compétences nécessaires à mes futurs employeurs, évaluées durant les examens. Tout change cependant quand arrive la période des stages, à la fin de la troisième année. Je postule pour un stage d’Astrochimie, proposé par l'Institut des Sciences Moléculaires (ISM), sous la supervision de deux femmes formidables, Jennifer Noble et Joël Mascetti. Nous étudions ensemble l’impact du fer dans la chimie des glaces interstellaires (pour résumer). Je prends un plaisir incommensurable à travailler sur cette expérience extrêmement complexe, à dénouer les fondamentaux théoriques pour en comprendre tous les tenants et les aboutissants, et pour la première fois, on me fait confiance et je travail en autonomie sur un projet qui me fascine, autant qu’il me dépasse. Je tombe amoureux de la science, dans le sens où je peux enfin être moi-même et utiliser cette singularité comme une force pour co-construire quelque chose de nouveau. Ma créativité s’exprime à plein régime et ensemble, nous trouvons des solutions pour construire une minuscule pièce de puzzle qui prendra la forme d’un article scientifique (citation). Une pièce de plus parmi toutes celles produites continuellement par tous les scientifiques du monde. C’est à ce moment là que je m’interroge sur un concept fondamental de ma cosmogonie intellectuelle : qui s’occupe d’assembler les différentes pièces du puzzle pour construire une meilleure compréhension du monde ? Eh bien sachez que le système mis en place dans cette optique, est loin d’avoir en son cœur le bénéfice de l’humanité, mais on en reparlera plus tard (dans la section I.3.c). En attendant, et malgré un stage très fructueux, ma troisième année de licence se solde par un échec, et je redouble l’année, en validant cependant mon second semestre. Je dispose donc d’un crédit temps de quelques mois, qui associé à la volonté de retrouver l’excitation que me procure l’application de la méthode scientifique dans un labo d’astrochimie, me pousse à reprendre contact avec Jenny pour lui demander de me mettre en contact avec son réseau. Elle me met donc en contact avec Helen Fraser, son ancienne maîtresse de thèse, qui me propose un stage dans son groupe d’astrochimie à l’Open University. Je m’envole donc direction Milton Keynes pour un stage (non rémunéré) de 6 mois, que je n’aurais pu accomplir sans le support financier de ma famille (que je remercie à cette occasion).        
+## La Fac de Science
+
+A vaincre sans péril, on triomphe sans gloire. Cette phrase de Corneille (l’écrivain, pas le chanteur) résume assez bien mes premières années de licence. Je n’ai jamais trouvé satisfaction à obtenir des bonnes notes, bien au contraire, voire mes camarades s’infliger des longues périodes de révisions dans l’espoir de voir les portes du marché de l'emploie s'ouvrir en grand, m’a toujours fait pitié. J’y ai toujours vu une sorte d’asservissement volontaire, provoqué par un système capitaliste hyper compétitif, qui se moque bien des ravages que cela peut impliquer sur les populations. Ce qui m’intéresse c’est comprendre plutôt qu’apprendre par coeur, explorer et repousser les frontières de mes propres connaissances, au lieu de faire des exercices pour travailler les compétences nécessaires à mes futurs employeurs, évaluées durant les examens. Tout change cependant quand arrive la période des stages, à la fin de la troisième année. Je postule pour un stage d’Astrochimie, proposé par l'Institut des Sciences Moléculaires (ISM), sous la supervision de deux femmes formidables, Jennifer Noble et Joël Mascetti. Nous étudions ensemble l’impact du fer dans la chimie des glaces interstellaires (pour résumer). 
+
+- Avant de continuer, j'aimerai introduire *the academic wheel of privilege*
+
+
+
+```{figure} Docs/awop_preview.png
+---
+width: 98%
+align: center
+name: awop_preview
+---
+The Academic Wheel of Privilege (AWoP) - **Source** : [FORRT](https://forrt.org/awop/s)
+```
+
+
+
+```{note}
+
+Trouver des données sur : 
+- l'accessibilité aux études superieures in STEM
+- La diversité dans le monde de la recherche ...
+
+Faire des liens vers les concepts qui suivent
+
+```
+
+## Les Stages
+
+
+Je prends un plaisir incommensurable à travailler sur cette expérience extrêmement complexe, à dénouer les fondamentaux théoriques pour en comprendre tous les tenants et les aboutissants, et pour la première fois, on me fait confiance et je travail en autonomie sur un projet qui me fascine, autant qu’il me dépasse. Je tombe amoureux de la science, dans le sens où je peux enfin être moi-même et utiliser cette singularité comme une force pour co-construire quelque chose de nouveau. Ma créativité s’exprime à plein régime et ensemble, nous trouvons des solutions pour construire une minuscule pièce de puzzle qui prendra la forme d’un article scientifique (citation). Une pièce de plus parmi toutes celles produites continuellement par tous les scientifiques du monde. C’est à ce moment là que je m’interroge sur un concept fondamental de ma cosmogonie intellectuelle : qui s’occupe d’assembler les différentes pièces du puzzle pour construire une meilleure compréhension du monde ? Eh bien sachez que le système mis en place dans cette optique, est loin d’avoir en son cœur le bénéfice de l’humanité, mais on en reparlera plus tard (dans la section I.3.c). En attendant, et malgré un stage très fructueux, ma troisième année de licence se solde par un échec, et je redouble l’année, en validant cependant mon second semestre. Je dispose donc d’un crédit temps de quelques mois, qui associé à la volonté de retrouver l’excitation que me procure l’application de la méthode scientifique dans un labo d’astrochimie, me pousse à reprendre contact avec Jenny pour lui demander de me mettre en contact avec son réseau. Elle me met donc en contact avec Helen Fraser, son ancienne maîtresse de thèse, qui me propose un stage dans son groupe d’astrochimie à l’Open University. Je m’envole donc direction Milton Keynes pour un stage (non rémunéré) de 6 mois, que je n’aurais pu accomplir sans le support financier de ma famille (que je remercie à cette occasion).  
+
+
+
+```{figure} Docs/Version-1-site.JPG
+---
+width: 80%
+align: center
+name: Version-1-site
+---
+La première version *du site* - **Source** : Image personnelle
+```
+

@@ -37,3 +37,15 @@ Est-ce que je peux reprendre l'analogie médicale du tissue pour représenter le
 ## Autres Mouvements
 
 - [pianeta](https://www.pianeta.org/en/our-mission/)
+
+
+
+## ESS
+
+- [ess-france.org](https://www.ess-france.org/chiffres-cles-ess)
+
+```{note}
+
+Explorer
+
+```

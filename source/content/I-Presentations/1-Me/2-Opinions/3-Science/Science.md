@@ -16,3 +16,12 @@
 
 
 ## La Méthode de Publication
+
+## Autres 
+
+- [RIOT Science Club](https://riotscience.co.uk/)
+
+
+## Meta Science
+
+- [Critical Metascience Articles](https://sites.google.com/site/markrubinsocialpsychresearch/replication-crisis/list-of-critical-metascience-articles)

@@ -22,6 +22,19 @@ Créer un dropdown comment j'ai fait pour expliquer le maniement de l'IA, Python
 ```
 
 
-## Données
+### A rajouter
+
+
+#### Fiches métiers
 
 - [Fiches metiers Onisep](https://www.data.gouv.fr/datasets/ideo-fiches-metiers)
+
+#### Film ton Jb
+
+- [filmetonjob.fr](https://filmetonjob.fr/videos?page=1&region=R%C3%A9gion&secteur=Communication%20-%20Journalisme&laureat=Laur%C3%A9ats&edition=%C3%89dition&search=)
+
+```{note}
+
+Des vidéos d'apprentis qui se filme en train de réliser leurs missions. Inclure certaines d'entre elles dans la visualisation
+
+```

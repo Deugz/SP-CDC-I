@@ -30,6 +30,30 @@ Utiliser ma propre experience de recherche pour discuter chacune des étapes
 
 ```
 
+### Ressources
+
+- [ARIADNE](https://igor-biodgps.github.io/ARIADNE/graph/graph.html)
+
+
+<iframe
+  id=""
+  title="Exemple de cadre intégré"
+  width="100%"
+  height="600"
+  src="https://igor-biodgps.github.io/ARIADNE/graph/graph.html">
+</iframe>
+
+```{note}
+
+Scientific ressource navigator
+
+- Explorer le [OSF repo](https://osf.io/tqjh8/overview) et récupérer le fichier csv avec les différents outils [lien](https://osf.io/tqjh8/files/bcd89)
+
+- [lien vers doc](https://igor-biodgps.github.io/ARIADNE/contentpages/intro.html)
+
+```
+
+
 ### Observation / Question
 
 

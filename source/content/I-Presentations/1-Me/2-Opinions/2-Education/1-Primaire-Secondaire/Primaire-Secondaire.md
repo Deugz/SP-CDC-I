@@ -16,3 +16,34 @@
 Est-ce le meme schéma dans les autres accadémies ? Pourquoi un site par accadémie
 
 ```
+
+
+## Et si ...
+
+### Plus d'écoles
+
+#### Deschooling Society
+
+- Livre d'Ivan Illic (1971)
+
+<iframe src="https://archive.org/embed/DeschoolingSociety" width="100%" height="500" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+
+```{note}
+
+Explorer et inclure ici les concepts intéréssants
+
+```
+
+- [infed article](https://infed.org/dir/welcome/ivan-illich-deschooling-conviviality-and-lifelong-learning/)
+
+
+- [Podcast RadioFrance](https://www.radiofrance.fr/franceculture/podcasts/les-chemins-de-la-philosophie/ivan-illich-une-societe-sans-ecole-7464673)
+
+```{note}
+
+Les chemins de la philosophie 
+- Martin Fortier, doctorant en philosophie et sciences cognitives à l’Institut Jean Nicod (laboratoire de l’EHESS et de l’ENS) et doctorant visitant au département d’anthropologie de l’Université Stanford.
+
+```
+

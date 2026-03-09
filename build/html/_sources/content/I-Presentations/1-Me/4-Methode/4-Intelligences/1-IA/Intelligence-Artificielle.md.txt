@@ -15,6 +15,50 @@ Intégrer les différentes vidéos dans un dropdown (en savoir plus)
 
 ```
 
+### Usage de l'IA
+
+
+{cite:p}`ChatterjiThomasCunninghamDavidDemingZoeHitzigChristopherOngCarlYanShanKevinWadman2025` 
+
+```{note}
+
+Article scientifique sur les usages de l'IA a lire et vulgariser
+
+```
+
+
+### IA and SDG
+
+- [www.ai-for-sdgs.academy](https://www.ai-for-sdgs.academy/)
+
+```{note}
+
+Explorer et utiliser pour analyser la figure ci-dessous
+
+```
+
+
+```{figure} Docs/SDG-positive-negative-impact.webp
+---
+width: 100%
+align: center
+name: SDG-positive-negative-impact
+---
+IA and SDGs - **Source** : {cite:p}`Vinuesa2020`
+```
+
+
+
+{cite:p}`Vinuesa2020` Article cientifique dont on peut extraire des figures
+
+
+```{note}
+
+Couper et créer deux figures distinctes et lire l'article pour créer un dropdown réflexion sous chacune d'elle
+
+```
+
+
 ## Outils
 
 ### Tests
