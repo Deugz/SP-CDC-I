@@ -76,3 +76,57 @@ Explorer et sélectionner les jeux intéréssants et que l'on peut utiliser, com
 
 ```
 
+## Open Edition
+
+- Sujet très interessant, à creuser !!
+
+- [Open Edition Lab](https://lab.hypotheses.org/3141)
+
+### Communs
+
+- [NGI Commons](https://commons.ngi.eu/fr/consortium/)
+    - Next generation internet
+ 
+```{note}
+
+Faire le lien vers les communs dans la partie numérique
+- Explorer les différences, les synergies !
+
+- **Membres** : 
+    - [martel innovate](https://martel-innovate.com/)
+
+- Concurrent ?
+
+```
+
+
+- [openedition.org](https://www.openedition.org/6438)
+
+OpenEdition est une infrastructure complète d’édition numérique au service de la communication scientifique en sciences humaines et sociales. Elle rassemble quatre plateformes dédiées aux revues avec OpenEdition Journals, aux collections de livres avec OpenEdition Books, aux carnets de recherche avec Hypothèses et aux événements scientifiques avec Calenda.
+
+```{admonition} Concurrent
+:class: warning
+
+Inclure dans la section benchmark concurrence
+```
+
+- Edition electronique software : [Lodel](https://lodel.hypotheses.org/)
+    - [Introduction Lodel](https://www.openedition.org/10905)
+ 
+```{note}
+
+Télécharger et tester !
+- faire un benchmark
+
+```
+
+## Litterature 
+
+- [Open science from the standpoint of the new wave of researchers: Views from the scholarly frontline](https://journals.sagepub.com/doi/pdf/10.3233/ISU-190069)
+
+```{note}
+
+Lire, extraire et inclure dans bibliography
+
+```
+

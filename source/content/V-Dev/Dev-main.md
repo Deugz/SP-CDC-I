@@ -1,4 +1,4 @@
-# 🔧 Dévelopement
+# 🔧 Dev
 
 
 ```{toctree}

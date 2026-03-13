@@ -1,4 +1,4 @@
-# 🧭 Conception
+# 🧭 Design
 
 ```{toctree}
 :maxdepth: 2

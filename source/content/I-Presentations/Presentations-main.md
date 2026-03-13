@@ -1,4 +1,4 @@
-# 🤝 Presentations
+# 🤝 Intro
 
 ```{toctree}
 :maxdepth: 2

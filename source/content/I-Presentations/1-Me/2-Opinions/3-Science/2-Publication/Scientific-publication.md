@@ -7,6 +7,8 @@ Faire un comparatif entre les premiers et les derniers articles créés et montr
 
 ```
 
+- [The Newton project](https://www.newtonproject.ox.ac.uk/texts/newtons-works/all?sort=shelfmark&order=desc)
+
 ## Introduction
 
 
@@ -58,6 +60,12 @@ explorer le concept
 
 ## Manifeste d'Arron Swartz
 
+```{note}
+
+Inclure dans dropdown
+
+```
+
 - Guerilla Open Access Manifesto
 
 - Aaron Swartz – juillet 2008
@@ -85,3 +93,16 @@ Nous avons besoin de récolter l’information où qu’elle soit stockée, d’
 Lorsque nous serons assez nombreux de par le monde, nous n’enverrons pas seulement un puissant message d’opposition à la privatisation de la connaissance  : nous ferons en sorte que cette privatisation appartienne au passé. Serez-vous des nôtres  ?
 
 Aaron Swartz
+
+
+## Et les charcheurs ?
+
+- Qu'est-ce qu'ils en pensent ?
+
+```{note}
+
+Inclure l'article dans Docs et extraire infos - faire lien vers Harbinger project dans section thèse 
+- Investiguer le protocole experimental
+
+```
+

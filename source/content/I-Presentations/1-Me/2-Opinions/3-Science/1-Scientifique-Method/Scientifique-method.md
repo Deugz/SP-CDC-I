@@ -30,6 +30,9 @@ Utiliser ma propre experience de recherche pour discuter chacune des étapes
 
 ```
 
+- [The Logic of Scientific
+Discovery](https://philotextes.info/spip/IMG/pdf/popper-logic-scientific-discovery.pdf)
+
 ### Ressources
 
 - [ARIADNE](https://igor-biodgps.github.io/ARIADNE/graph/graph.html)
