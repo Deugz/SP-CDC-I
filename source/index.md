@@ -347,6 +347,11 @@ p-emphase pour introduire le niveau 4 dans le sommaire ci-dessous
 
 #### 4. le Temps
 
+```{note}
+
+Vidéo gource ?
+
+```
 
 ## Sommaire
 

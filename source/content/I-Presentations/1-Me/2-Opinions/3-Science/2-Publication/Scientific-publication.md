@@ -1,5 +1,16 @@
 # Scientific Publication
 
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+1-How-it-works/Sc-publi-DIY
+2-Peer-Review/Peer-review
+3-Editorial-Market/Editorial-market
+4-Research-assesment/Research-assesment
+
+```
+
 
 ```{note}
 

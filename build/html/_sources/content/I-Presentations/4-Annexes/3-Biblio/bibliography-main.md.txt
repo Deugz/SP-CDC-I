@@ -4,7 +4,7 @@
 :maxdepth: 2
 :hidden:
 
-Veille-complete/veille-complete
+Livres/Livres
 Webography/webography-main
 Articles/articles-scientifiques
 Rapports/reports

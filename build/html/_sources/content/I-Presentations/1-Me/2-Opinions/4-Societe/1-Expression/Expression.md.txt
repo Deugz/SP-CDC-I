@@ -1,5 +1,14 @@
 # Exprimer
 
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+1-Anti-Capitalisme/pensee-anti-capitaliste
+
+
+```
+
 
 ## Ses Emotions
 
