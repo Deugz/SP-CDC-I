@@ -40,13 +40,6 @@ hoverxref_role_types = {
     "ref": "tooltip",
 }
 
-hoverxref_tooltip_content = "html"
-hoverxref_tooltip_maxwidth = 600
-
-hoverxref_tooltip_selector = {
-    "term": "dt + dd",
-}
-
 bibtex_bibfiles = ["references.bib"]
 bibtex_reference_style = "author_year"  # ou "label" si tu veux un style classique
 
