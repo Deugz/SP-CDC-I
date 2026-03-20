@@ -23,3 +23,9 @@
 Note prise depuis le cours [DORA](https://sfdora.org/courses/introductory-course-to-responsible-research-assessment/)
 
 ```
+
+- [Guide usage responsable assesment](https://zenodo.org/records/13844873)
+
+## Glossary
+
+- {term}`Research assessment`

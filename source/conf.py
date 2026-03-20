@@ -22,12 +22,19 @@ extensions = [
     "sphinx.ext.autosectionlabel",
     "sphinxcontrib.bibtex",
     "sphinx_new_tab_link",
+    "hoverxref.extension",
 ]
 
 myst_enable_extensions = [
     "colon_fence",
     "linkify",
 ]
+
+hoverxref_auto_ref = True
+hoverxref_domains = ["std"]  # important pour les :term:
+hoverxref_role_types = {
+    "term": "tooltip",
+}
 
 bibtex_bibfiles = ["references.bib"]
 bibtex_reference_style = "author_year"  # ou "label" si tu veux un style classique
