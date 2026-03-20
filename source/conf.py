@@ -40,6 +40,8 @@ hoverxref_role_types = {
     "ref": "tooltip",
 }
 
+hoverxref_tooltip_content = "text"
+
 bibtex_bibfiles = ["references.bib"]
 bibtex_reference_style = "author_year"  # ou "label" si tu veux un style classique
 

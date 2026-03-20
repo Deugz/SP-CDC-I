@@ -8,7 +8,7 @@ function reRenderTooltip (instance, helper) {
     // it's different. Once it's different, re renders its content
     // to show it properly (this may involve calling external JS
     // libraries like MathJax) and finally call tooltip.reposition().
-    if (helper.tooltip.textContent !== 'Loading...') {
+    if (helper.tooltip.textContent !== 'text') {
         // https://stackoverflow.com/questions/5200545/how-to-recall-or-restart-mathjax
         if (mathjax) {
             if (typeof MathJax !== 'undefined') {
@@ -99,7 +99,7 @@ function addTooltip(target) {
         animation: 'fade',
         animationDuration: 0,
         side: 'right',
-        content: 'Loading...',
+        content: 'text',
         contentAsHTML: true,
 
         functionBefore: function(instance, helper) {
