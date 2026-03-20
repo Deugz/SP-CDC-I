@@ -7,7 +7,7 @@
 1-How-it-works/Sc-publi-DIY
 2-Editorial-Market/Editorial-market
 3-Research-assesment/Research-assesment
-4-Impact/Peer-review
+4-Impact/Research-Impact
 ```
 
 

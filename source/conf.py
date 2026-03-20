@@ -32,8 +32,12 @@ myst_enable_extensions = [
 
 hoverxref_auto_ref = True
 hoverxref_domains = ["std"]  # important pour les :term:
+hoverxref_roles = [
+    "term",
+]
 hoverxref_role_types = {
     "term": "tooltip",
+    "ref": "tooltip",
 }
 
 bibtex_bibfiles = ["references.bib"]

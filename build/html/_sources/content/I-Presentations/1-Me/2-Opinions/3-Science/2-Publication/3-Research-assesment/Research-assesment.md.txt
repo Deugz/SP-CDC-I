@@ -26,6 +26,13 @@ Note prise depuis le cours [DORA](https://sfdora.org/courses/introductory-course
 
 - [Guide usage responsable assesment](https://zenodo.org/records/13844873)
 
+
+### More than Articles !
+
+```{note}
+Faire lien vers section impact
+```
+
 ## Glossary
 
 - {term}`Research assessment`
