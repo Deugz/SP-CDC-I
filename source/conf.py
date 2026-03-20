@@ -44,7 +44,7 @@ hoverxref_tooltip_content = "html"
 hoverxref_tooltip_maxwidth = 600
 
 hoverxref_tooltip_selector = {
-    "term": "dd p",
+    "term": "dt + dd",
 }
 
 bibtex_bibfiles = ["references.bib"]
