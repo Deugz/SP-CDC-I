@@ -32,7 +32,3 @@ Note prise depuis le cours [DORA](https://sfdora.org/courses/introductory-course
 ```{note}
 Faire lien vers section impact
 ```
-
-## Glossary
-
-- {term}`Research assessment`
