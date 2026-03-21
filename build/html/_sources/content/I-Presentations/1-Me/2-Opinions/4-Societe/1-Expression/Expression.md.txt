@@ -1,11 +1,13 @@
 # Exprimer
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 4
 :hidden:
 
-1-Anti-Capitalisme/pensee-anti-capitaliste
-
+1-Creativite/expr-creative
+2-Curiosite/expr-curiosite
+3-Anti-Capitalisme/pensee-anti-capitaliste
+4-Utopie/expr-utopie
 
 ```
 

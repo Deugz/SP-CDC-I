@@ -2,11 +2,19 @@
 
 
 <iframe 
-    src="../../../../../../_static/Python-Processing/Investigation-Numerique/cartographie_metiers.html"
+    src="../../../../../../_static/Python-Processing/Investigation-Numerique/output/cartographie_metiers.html"
     width="100%" 
     height="800"
     frameborder="0">
 </iframe>
+
+
+```{note}
+
+- créer une sous section hyperspecialisation
+
+```
+
 
 
 ## Cartographie

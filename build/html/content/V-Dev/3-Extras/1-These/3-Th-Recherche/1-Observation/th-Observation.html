@@ -16,34 +16,31 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../../../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../../../../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=8f2a1f02" />
+  
+  <link href="../../../../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../../../_static/pygments.css?v=362ab14a" />
     <link rel="stylesheet" type="text/css" href="../../../../../../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/page-layout.css?v=52b856e3" />
     <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/page-content.css?v=70e0eb59" />
     <link rel="stylesheet" type="text/css" href="../../../../../../_static/css/admonition-style.css?v=8c3222a8" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../../../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../../../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../../../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../../../../../../_static/documentation_options.js?v=1b390748"></script>
-    <script src="../../../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../../../_static/doctools.js?v=9a2dae69"></script>
     <script src="../../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../../../../../_static/design-tabs.js?v=f930bc37"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/V-Dev/3-Extras/1-These/3-Th-Recherche/1-Observation/th-Observation';</script>
@@ -54,7 +51,6 @@
     <link rel="prev" title="Recherche" href="../Th-Recherche-main.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -70,8 +66,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../../../../../../search.html"
       method="get">
@@ -79,6 +86,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search the docs ..."
          aria-label="Search the docs ..."
          autocomplete="off"
@@ -86,8 +94,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -121,7 +129,7 @@
     
     
     <img src="../../../../../../_static/Under_construction.svg" class="logo__image only-light" alt="en construction"/>
-    <img src="../../../../../../_static/Under_construction.svg" class="logo__image only-dark pst-js-only" alt="en construction"/>
+    <script>document.write(`<img src="../../../../../../_static/Under_construction.svg" class="logo__image only-dark" alt="en construction"/>`);</script>
   
   
     <p class="title logo__title"> &nbsp <strong>4.A Doc</strong> - <em> in progress</em> </p>
@@ -197,21 +205,29 @@
         <div class="navbar-item navbar-persistent--container">
           
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
         </div>
       
       
         <div class="navbar-item">
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button></div>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
       
         <div class="navbar-item"><ul class="navbar-icon-links"
     aria-label="Icon Links">
@@ -236,11 +252,15 @@
   
     <div class="navbar-persistent--mobile">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
     </div>
   
 
@@ -259,8 +279,7 @@
       
       
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -335,11 +354,15 @@
         
           <div class="navbar-item">
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button></div>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
         
           <div class="navbar-item"><ul class="navbar-icon-links"
     aria-label="Icon Links">
@@ -454,14 +477,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -479,6 +497,10 @@
       
         <div class="header-article-item">
 
+
+
+
+
 <nav aria-label="Breadcrumb" class="d-print-none">
   <ul class="bd-breadcrumbs">
     
@@ -491,12 +513,12 @@
     <li class="breadcrumb-item"><a href="../../../../Dev-main.html" class="nav-link">🔧 Dev</a></li>
     
     
-    <li class="breadcrumb-item"><a href="../../These-main.html" class="nav-link">Cette Thèse (4.A Doc)</a></li>
+    <li class="breadcrumb-item"><i class="fa-solid fa-ellipsis"></i></li>
     
     
     <li class="breadcrumb-item"><a href="../Th-Recherche-main.html" class="nav-link">Recherche</a></li>
     
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Observations</span></li>
+    <li class="breadcrumb-item active" aria-current="page">Observations</li>
   </ul>
 </nav>
 </div>
@@ -539,12 +561,12 @@ Prompt</label><div class="sd-tab-content docutils">
 <label class="sd-tab-label" for="sd-tab-item-1">
 Réponse complète</label><div class="sd-tab-content docutils">
 <p class="sd-card-text">Voici d’abord un état de l’art synthétique, puis une série de problématiques de recherche formulées comme de vraies questions de thèse ou de projet.</p>
-<p class="rubric" id="etat-de-lart-hci-jeunes-chercheurs-posture-editoriale">1. État de l’art (HCI, jeunes chercheurs, posture éditoriale)</p>
+<h2 class="rubric" id="etat-de-lart-hci-jeunes-chercheurs-posture-editoriale">1. État de l’art (HCI, jeunes chercheurs, posture éditoriale)</h2>
 <p class="sd-card-text">Dans l’Interaction Homme‑Machine, la problématique centrale est de concevoir des médiations entre les capacités humaines (perception, cognition, action, communication) et les systèmes informatiques, en s’appuyant sur des méthodes de conception, de prototypage et d’évaluation rigoureuses, souvent participatives et pluridisciplinaires. Les travaux récents insistent sur l’importance d’observer les interactions en situation plutôt que de se focaliser uniquement sur les interfaces, afin de dégager des propriétés interactionnelles plus générales. <a class="reference external" href="https://books.openedition.org/editionscnrs/30758?lang=fr" rel="noreferrer" target="_blank">books.openedition</a></p>
 <p class="sd-card-text">Parallèlement, les études sur les pratiques numériques des jeunes chercheurs montrent que cette génération s’inscrit dans un écosystème de communication scientifique en mutation profonde : plateformes numériques, réseaux sociaux académiques, open access, exigences de science ouverte et circulation rapide des résultats. Ces travaux décrivent des usages (Google Scholar, dépôts, réseaux sociaux) mais très peu la conception par les jeunes chercheurs eux‑mêmes d’« infrastructures éditoriales » open‑source dédiées à leur propre travail (sites, documentations, pipelines de publication). <a class="reference external" href="https://books.openedition.org/editionsehess/28848?lang=en" rel="noreferrer" target="_blank">books.openedition</a></p>
 <p class="sd-card-text">En sciences humaines et sociales, des recherches analysent les pratiques autour des documents numériques (conservation, diffusion, usages, transmission) et les enjeux de la numérisation et des plateformes d’édition scientifique. D’autres travaux sur les plateformes de science ouverte étudient l’usage, la navigation, l’appropriation et la diffusion des contenus, en mobilisant fouille de données, APIs et méthodes computationnelles pour comprendre l’influence de ces infrastructures sur les contenus et les publics. On voit émerger l’idée que les outils numériques (plateformes, scripts, APIs) deviennent eux‑mêmes des objets pour faire de la sociologie ou de l’étude des pratiques scientifiques, mais le rôle de « jeune chercheur‑éditeur/documentaliste » outillé par Python/Markdown/Sphinx/GitHub reste peu exploré. <a class="reference external" href="https://lab.hypotheses.org/3141" rel="noreferrer" target="_blank">lab.hypotheses</a></p>
 <p class="sd-card-text">Côté bibliothèques et science ouverte, de nombreux guides et dispositifs outillent les chercheurs pour mieux gérer leurs données, choisir des revues ouvertes, ou comprendre les enjeux de l’ouverture des publications. Cependant, ces ressources visent principalement à accompagner l’usage de services existants plutôt qu’à étudier la conception par les jeunes chercheurs de chaînes de production éditoriales open‑source intégrées à leurs pratiques de recherche. Cela ouvre un espace de recherche HCI sur les workflows « do‑it‑yourself » où le jeune chercheur devient co‑designer de son environnement documentaire et éditorial. <a class="reference external" href="https://bibliotheques.univ-montp3.fr/boite-a-outils-recherche" rel="noreferrer" target="_blank">bibliotheques.univ-montp3</a></p>
-<p class="rubric" id="axes-conceptuels-pour-ta-posture-documentaliste-publisher">2. Axes conceptuels pour ta posture « documentaliste / publisher »</p>
+<h2 class="rubric" id="axes-conceptuels-pour-ta-posture-documentaliste-publisher">2. Axes conceptuels pour ta posture « documentaliste / publisher »</h2>
 <p class="sd-card-text">Ces constats permettent de structurer ton sujet autour de plusieurs axes HCI :</p>
 <ul class="simple">
 <li><p class="sd-card-text"><strong>Jeune chercheur comme designer d’infrastructure</strong> : passer de l’utilisateur de plateformes (journaux, HAL, OpenEdition) au concepteur de micro‑infrastructures (dépôt GitHub, site Sphinx, documentation versionnée, data‑paper auto‑généré).</p></li>
@@ -554,39 +576,39 @@ Réponse complète</label><div class="sd-tab-content docutils">
 <li><p class="sd-card-text"><strong>Science ouverte et publics multiples</strong> : analyser comment ces chaînes open‑source modifient l’accessibilité, la réutilisation et la visibilité des travaux, et comment elles reconfigurent les relations avec les plateformes de science ouverte existantes. <a class="reference external" href="https://books.openedition.org/editionsehess/28848?lang=en" rel="noreferrer" target="_blank">books.openedition</a></p></li>
 </ul>
 <p class="sd-card-text">Sur cette base, tu peux formuler des problématiques qui explorent des terrains encore peu investis et positionner ton travail à l’intersection HCI – études des pratiques scientifiques – documentation.</p>
-<p class="rubric" id="problematiques-de-recherche-niveau-these-projet">3. Problématiques de recherche (niveau thèse / projet)</p>
+<h2 class="rubric" id="problematiques-de-recherche-niveau-these-projet">3. Problématiques de recherche (niveau thèse / projet)</h2>
 <p class="sd-card-text">Je te propose plusieurs familles de problématiques. Tu peux en combiner deux pour faire un projet original.</p>
-<p class="rubric" id="a-posture-editoriale-et-transformation-des-pratiques-de-recherche">A. Posture éditoriale et transformation des pratiques de recherche</p>
+<h3 class="rubric" id="a-posture-editoriale-et-transformation-des-pratiques-de-recherche">A. Posture éditoriale et transformation des pratiques de recherche</h3>
 <ol class="arabic simple">
 <li><p class="sd-card-text">Comment la conception et l’usage d’une chaîne éditoriale open‑source (Python + Markdown + Sphinx + GitHub) transforment‑ils la manière dont les jeunes chercheurs produisent, organisent et partagent leurs connaissances au quotidien (carnet de labo, préprints, code, données) ?</p></li>
 <li><p class="sd-card-text">En quoi l’adoption d’une posture de <strong>documentaliste numérique</strong> par les jeunes chercheurs reconfigure‑t‑elle leurs relations aux infrastructures institutionnelles de publication (revues, archives ouvertes, bibliothèques universitaires) et aux plateformes commerciales (réseaux sociaux académiques) ?</p></li>
 <li><p class="sd-card-text">Comment la mise en place de workflows éditoriaux reproducibles influence‑t‑elle la réflexivité des jeunes chercheurs sur leurs méthodes et leurs choix théoriques, par rapport à des pratiques de publication plus « classiques » (article PDF finalisé seulement) ?</p></li>
 </ol>
-<p class="rubric" id="b-hci-de-la-documentation-scientifique-concue-par-les-chercheurs">B. HCI de la documentation scientifique conçue par les chercheurs</p>
+<h3 class="rubric" id="b-hci-de-la-documentation-scientifique-concue-par-les-chercheurs">B. HCI de la documentation scientifique conçue par les chercheurs</h3>
 <ol class="arabic simple" start="4">
 <li><p class="sd-card-text">Quelles propriétés d’interaction (navigation, repérage, rétroaction, appropriation) caractérisent les sites et documentations de recherche créés avec Sphinx/GitHub par les jeunes chercheurs, et comment ces propriétés influencent‑elles l’expérience des utilisateurs (pairs, étudiants, non‑spécialistes) ?</p></li>
 <li><p class="sd-card-text">Comment concevoir, dans une perspective HCI, des gabarits et composants interactifs pour Sphinx ou Markdown qui soutiennent explicitement la compréhension des méthodes, la réutilisation des données et la reproductibilité des analyses ?</p></li>
 <li><p class="sd-card-text">Quelles tensions apparaissent entre les bonnes pratiques HCI (simplicité, charge cognitive réduite) et les exigences de traçabilité, de complétude et de transparence propres à la science ouverte dans des documentations pilotées par les jeunes chercheurs ?</p></li>
 </ol>
-<p class="rubric" id="c-design-participatif-et-coconstruction-de-chaines-editoriales">C. Design participatif et co‑construction de chaînes éditoriales</p>
+<h3 class="rubric" id="c-design-participatif-et-coconstruction-de-chaines-editoriales">C. Design participatif et co‑construction de chaînes éditoriales</h3>
 <ol class="arabic simple" start="7">
 <li><p class="sd-card-text">Comment impliquer des jeunes chercheurs de disciplines variées dans des démarches de conception participative pour co‑designer des workflows éditoriaux open‑source adaptés à leurs contraintes, et quelles formes de médiation (ateliers, prototypes, guides) sont les plus efficaces ? <a class="reference external" href="https://books.openedition.org/editionscnrs/30758?lang=fr" rel="noreferrer" target="_blank">books.openedition</a></p></li>
 <li><p class="sd-card-text">Quels modèles de collaboration émergent lorsque des bibliothécaires/documentalistes, des ingénieurs HN (humanités numériques) et des jeunes chercheurs co‑construisent et maintiennent une infrastructure éditoriale basée sur GitHub, et comment ces modèles affectent‑ils la durabilité de l’infrastructure ?</p></li>
 <li><p class="sd-card-text">Comment évaluer, dans une perspective HCI, l’impact de ces chaînes éditoriales co‑conçues sur la charge de travail perçue, le sentiment d’autonomie et la capacité des jeunes chercheurs à se projeter dans des pratiques de science ouverte à long terme ?</p></li>
 </ol>
-<p class="rubric" id="d-infrastructures-science-ouverte-et-publics">D. Infrastructures, science ouverte et publics</p>
+<h3 class="rubric" id="d-infrastructures-science-ouverte-et-publics">D. Infrastructures, science ouverte et publics</h3>
 <ol class="arabic simple" start="10">
 <li><p class="sd-card-text">En quoi les micro‑infrastructures éditoriales créées par les jeunes chercheurs (sites de projets, doc de code, carnets de labo ouverts) complètent‑elles ou concurrencent‑elles les grandes plateformes de publication scientifique en accès ouvert, du point de vue des usages et des publics visés ? <a class="reference external" href="https://lab.hypotheses.org/3141" rel="noreferrer" target="_blank">lab.hypotheses</a></p></li>
 <li><p class="sd-card-text">Comment les métadonnées, indexations et vocabulaires contrôlés définis « à la main » par des jeunes chercheurs‑documentalistes dans des dépôts GitHub/Sphinx influencent‑ils la trouvabilité et la réutilisation de leurs travaux par différents publics (académiques/non académiques) ?</p></li>
 <li><p class="sd-card-text">Quels scénarios d’« écologie des plateformes » peut‑on imaginer où les chaînes éditoriales open‑source individuelles s’articulent avec les dépôts institutionnels, les catalogues de bibliothèques et les archives ouvertes, et quelles implications cela a‑t‑il pour la conception des interfaces de ces différents systèmes ?</p></li>
 </ol>
-<p class="rubric" id="e-methodes-dobservation-des-interactions-avec-les-chaines-editoriales">E. Méthodes d’observation des interactions avec les chaînes éditoriales</p>
+<h3 class="rubric" id="e-methodes-dobservation-des-interactions-avec-les-chaines-editoriales">E. Méthodes d’observation des interactions avec les chaînes éditoriales</h3>
 <ol class="arabic simple" start="13">
 <li><p class="sd-card-text">Comment développer une méthodologie HCI centrée sur l’observation des interactions avec des chaînes éditoriales reproductibles (consultation de doc, fork GitHub, exécution de notebooks) plutôt que seulement sur l’interface finale, afin de dégager une « physique des interactions » propres à la documentation scientifique ? <a class="reference external" href="https://arxiv.org/pdf/2510.06156.pdf" rel="noreferrer" target="_blank">arxiv</a></p></li>
 <li><p class="sd-card-text">Quelles combinaisons de méthodes (journaux de bord, logs, analyses de parcours, entretiens, tests utilisateurs) permettent le mieux de caractériser les usages réels des documentations Sphinx/GitHub créées par des jeunes chercheurs, et de relier ces usages à des choix de design concrets ?</p></li>
 <li><p class="sd-card-text">Comment les métriques classiques du web (pages vues, temps passé, rebonds) doivent‑elles être adaptées ou complétées pour évaluer la qualité interactionnelle de ressources documentaires scientifiques produites dans des workflows open‑source ?</p></li>
 </ol>
-<p class="rubric" id="comment-choisir-et-resserrer-ta-problematique">4. Comment choisir et resserrer ta problématique</p>
+<h2 class="rubric" id="comment-choisir-et-resserrer-ta-problematique">4. Comment choisir et resserrer ta problématique</h2>
 <p class="sd-card-text">Pour converger vers une problématique « territoire inexploré », tu peux :</p>
 <ul class="simple">
 <li><p class="sd-card-text">Choisir un cadre : par exemple, jeunes chercheurs en SHS à l’ère de la science ouverte (Fort lien avec les travaux sur plateformes et documents numériques). <a class="reference external" href="https://popups.uliege.be/2030-1456/index.php?id=282&amp;amp;file=1&amp;amp;pid=262" rel="noreferrer" target="_blank">popups.uliege</a></p></li>
@@ -619,7 +641,7 @@ Réponse complète</label><div class="sd-tab-content docutils">
 <section id="projets">
 <h3>Projets<a class="headerlink" href="#projets" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><a class="reference internal" href="../../../../../I-Presentations/1-Me/4-Methode/1-Stack/2-Markdown/Markdown-main.html#id1"><span class="std std-ref">Harbinger Research Project</span></a></p></li>
+<li><p><a class="reference internal" href="#"><span class="xref myst">Harbinger Research Project</span></a></p></li>
 </ul>
 </section>
 </section>
@@ -660,8 +682,7 @@ Réponse complète</label><div class="sd-tab-content docutils">
             
             
               
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
   <div class="sidebar-secondary-item">
@@ -681,13 +702,13 @@ Réponse complète</label><div class="sd-tab-content docutils">
   </nav></div>
 
   <div class="sidebar-secondary-item">
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="../../../../../../_sources/content/V-Dev/3-Extras/1-These/3-Th-Recherche/1-Observation/th-Observation.md.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div></div>
+
+  <div class="tocsection sourcelink">
+    <a href="../../../../../../_sources/content/V-Dev/3-Extras/1-These/3-Th-Recherche/1-Observation/th-Observation.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
 
 </div></div>
               
@@ -702,8 +723,8 @@ Réponse complète</label><div class="sd-tab-content docutils">
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../../../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../../../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -723,7 +744,7 @@ Réponse complète</label><div class="sd-tab-content docutils">
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
     <br/>
   </p>
 </div>
@@ -736,8 +757,7 @@ Réponse complète</label><div class="sd-tab-content docutils">
       
         <div class="footer-item">
 <p class="theme-version">
-  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.4.
 </p></div>
       
     </div>

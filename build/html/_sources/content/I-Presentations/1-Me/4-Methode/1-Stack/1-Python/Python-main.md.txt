@@ -1,6 +1,35 @@
 # Python
 
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+1-Analyse-donnee/data-analyse
+2-Automatisation/Python-auto
+3-Conception-web/Python-Dev-web
+4-Dev-IA/python-dev-IA
+```
+
 ## Introductions
+
+### Création et Histoire
+
+```{note}
+
+Créer un tab-item avec les différentes époques
+
+
+
+```
+
+
+### Ma Découverte
+
+```{note}
+
+Difficile aux premiers abords mais une communauté très riche et bienveillante
+
+```
 
 
 

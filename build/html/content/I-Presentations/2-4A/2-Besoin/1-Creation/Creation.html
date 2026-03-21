@@ -16,34 +16,31 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
-  <!--
-    this give us a css class that will be invisible only if js is disabled
-  -->
-  <noscript>
-    <style>
-      .pst-js-only { display: none !important; }
-
-    </style>
-  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../../../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
-<link href="../../../../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+  <link href="../../../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=8f2a1f02" />
+  
+  <link href="../../../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=362ab14a" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/css/page-layout.css?v=52b856e3" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/css/page-content.css?v=70e0eb59" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/css/admonition-style.css?v=8c3222a8" />
   
-  <!-- So that users can add custom icons -->
-  <script src="../../../../../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
-<link rel="preload" as="script" href="../../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+  <link rel="preload" as="script" href="../../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script src="../../../../../_static/documentation_options.js?v=1b390748"></script>
-    <script src="../../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../../_static/doctools.js?v=9a2dae69"></script>
     <script src="../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../../../../_static/design-tabs.js?v=f930bc37"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/I-Presentations/2-4A/2-Besoin/1-Creation/Creation';</script>
@@ -54,7 +51,6 @@
     <link rel="prev" title="Hypothèses sur le Besoin" href="../Besoin-main.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -70,8 +66,19 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <dialog id="pst-search-dialog">
-    
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
       action="../../../../../search.html"
       method="get">
@@ -79,6 +86,7 @@
   <input type="search"
          class="form-control"
          name="q"
+         id="search-input"
          placeholder="Search the docs ..."
          aria-label="Search the docs ..."
          autocomplete="off"
@@ -86,8 +94,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-  </dialog>
+</form></div>
+  </div>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -121,7 +129,7 @@
     
     
     <img src="../../../../../_static/Under_construction.svg" class="logo__image only-light" alt="en construction"/>
-    <img src="../../../../../_static/Under_construction.svg" class="logo__image only-dark pst-js-only" alt="en construction"/>
+    <script>document.write(`<img src="../../../../../_static/Under_construction.svg" class="logo__image only-dark" alt="en construction"/>`);</script>
   
   
     <p class="title logo__title"> &nbsp <strong>4.A Doc</strong> - <em> in progress</em> </p>
@@ -197,21 +205,29 @@
         <div class="navbar-item navbar-persistent--container">
           
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
         </div>
       
       
         <div class="navbar-item">
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button></div>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
       
         <div class="navbar-item"><ul class="navbar-icon-links"
     aria-label="Icon Links">
@@ -236,11 +252,15 @@
   
     <div class="navbar-persistent--mobile">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button>
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
     </div>
   
 
@@ -259,8 +279,7 @@
       
       
       
-      <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -335,11 +354,15 @@
         
           <div class="navbar-item">
 
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button></div>
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
         
           <div class="navbar-item"><ul class="navbar-icon-links"
     aria-label="Icon Links">
@@ -402,7 +425,7 @@
 <li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/3-Science/2-Publication/1-How-it-works/Sc-publi-DIY.html">How it works ?</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/3-Science/2-Publication/2-Editorial-Market/Editorial-market.html">Editorial Market</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/3-Science/2-Publication/3-Research-assesment/Research-assesment.html">Research Assesment</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/3-Science/2-Publication/4-Impact/Research-Impact.html">Impact</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/3-Science/2-Publication/4-Impact/Research-Impact.html">Research Impact</a></li>
 </ul>
 </details></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../1-Me/2-Opinions/3-Science/3-Open-Science/Open-science.html">Open Science</a></li>
@@ -411,10 +434,19 @@
 </details></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/Societe-main.html">Société</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3 has-children"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/1-Expression/Expression.html">Exprimer</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/1-Expression/1-Anti-Capitalisme/pensee-anti-capitaliste.html">Pensée Anti-Capitaliste</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/1-Expression/1-Creativite/expr-creative.html">Sa Créativité</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/1-Expression/2-Curiosite/expr-curiosite.html">Sa Curiosité</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/1-Expression/3-Anti-Capitalisme/pensee-anti-capitaliste.html">Pensée Anti-Capitaliste</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/1-Expression/4-Utopie/expr-utopie.html">Son Utopie</a></li>
 </ul>
 </details></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/2-Je-Nous/du-jeu-au-nous.html">du Je au Nous</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/2-Je-Nous/du-jeu-au-nous.html">du Je au Nous</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/2-Je-Nous/1-Cadre/le-cadre.html">Le Cadre</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/2-Je-Nous/2-Collectif/le-Collectif.html">Le Collectif</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/2-Je-Nous/3-communication/la-communication.html">La Communication</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/2-Je-Nous/4-Participation/Participation.html">La Participation</a></li>
+</ul>
+</details></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/3-Collectif/collectif.html">en Collectif</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../1-Me/2-Opinions/4-Societe/4-Democratie/democratie.html">Démocratie</a></li>
 </ul>
@@ -430,9 +462,27 @@
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../1-Me/4-Methode/Methode-main.html">Ma Méthode</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/Stack.html">Stack</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/1-Python/Python-main.html">Python</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/2-Markdown/Markdown-main.html">Markdown</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/3-Sphinx/Sphinx-main.html">Sphinx</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/1-Python/Python-main.html">Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/1-Python/1-Analyse-donnee/data-analyse.html">Analyse de données</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/1-Python/2-Automatisation/Python-auto.html">Automatisation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/1-Python/3-Conception-web/Python-Dev-web.html">Conception Web</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/1-Python/4-Dev-IA/python-dev-IA.html">Développement IA</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/2-Markdown/Markdown-main.html">Markdown</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/2-Markdown/1-Notes/md-notes.html">Prise de Notes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/2-Markdown/2-Prod-doc/md-prod-doc.html">Production de doc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/2-Markdown/3-Redac-web/md-redac-web.html">Rédaction Web</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/2-Markdown/4-Conversion/md-conversion.html">Conversion multiformat</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/3-Sphinx/Sphinx-main.html">Sphinx</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/3-Sphinx/1-Structuration/Sp-Structuration.html">Structuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/3-Sphinx/2-Gestion/Sp-Gestion.html">Gestion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/3-Sphinx/3-Construction-web/Sp-Construction-web.html">Construction Web</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/3-Sphinx/4-Personalisation/Sp-Personalisation.html">Personalisation</a></li>
+</ul>
+</details></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../1-Me/4-Methode/1-Stack/4-Github/Github-main.html">Github</a></li>
 </ul>
 </details></li>
@@ -560,14 +610,9 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
-      <div class="sidebar-primary-item">
-<div id="ethical-ad-placement"
-      class="flat"
-      data-ea-publisher="readthedocs"
-      data-ea-type="readthedocs-sidebar"
-      data-ea-manual="true">
-</div></div>
   </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -585,6 +630,8 @@
       
         <div class="header-article-item">
 
+
+
 <nav aria-label="Breadcrumb" class="d-print-none">
   <ul class="bd-breadcrumbs">
     
@@ -599,7 +646,7 @@
     
     <li class="breadcrumb-item"><a href="../Besoin-main.html" class="nav-link">Hypothèses sur le Besoin</a></li>
     
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Création</span></li>
+    <li class="breadcrumb-item active" aria-current="page">Création</li>
   </ul>
 </nav>
 </div>
@@ -656,18 +703,17 @@
             
             
               
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
   <div class="sidebar-secondary-item">
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="../../../../../_sources/content/I-Presentations/2-4A/2-Besoin/1-Creation/Creation.md.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div></div>
+
+  <div class="tocsection sourcelink">
+    <a href="../../../../../_sources/content/I-Presentations/2-4A/2-Besoin/1-Creation/Creation.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
 
 </div></div>
               
@@ -682,8 +728,8 @@
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../../../../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
-<script defer src="../../../../../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+  <script src="../../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -703,7 +749,7 @@
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
     <br/>
   </p>
 </div>
@@ -716,8 +762,7 @@
       
         <div class="footer-item">
 <p class="theme-version">
-  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.4.
 </p></div>
       
     </div>

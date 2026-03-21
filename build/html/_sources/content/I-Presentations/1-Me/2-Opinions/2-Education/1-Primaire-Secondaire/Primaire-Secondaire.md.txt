@@ -18,6 +18,10 @@ Est-ce le meme schéma dans les autres accadémies ? Pourquoi un site par accad�
 ```
 
 
+### Apprentissage et Créativité
+
+- [Sir Ken Robinson](https://fr.wikipedia.org/wiki/Ken_Robinson_(auteur))
+
 ## Et si ...
 
 ### Plus d'écoles
