@@ -1,5 +1,17 @@
 # Reproducibility 
 
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+1-Crisis/repro-crisis
+2-Xp-Simulation/Xp-vs-Simulation
+3-Interdisciplinarity/Interdisciplinarity
+4-Bigger-Picture/The-bigger-picture
+
+```
+
 - (crisis or not crisis)
 
 

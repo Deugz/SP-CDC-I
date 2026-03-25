@@ -5,8 +5,8 @@
 :maxdepth: 2
 :hidden:
 
-1-IA/Intelligence-Artificielle
-2-IH/Intelligence-Humaine
+1-IH/Intelligence-Humaine
+2-IA/Intelligence-Artificielle
 3-IC/Intelligence-Collective
 4-IE/Intelligence-Environemental
 

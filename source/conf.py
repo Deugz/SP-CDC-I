@@ -70,4 +70,4 @@ html_theme_options = {
 
 html_static_path = ['_static']
 
-html_css_files = ["css/page-layout.css", "css/page-content.css", "css/admonition-style.css"]
+html_css_files = ["css/page-layout.css", "css/page-content.css", "css/admonition-style.css", "css/hover-button.css"]

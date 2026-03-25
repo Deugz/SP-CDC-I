@@ -1,5 +1,26 @@
 # Open Science
 
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+1-Knowledge/os-knowledge
+2-Infrastructures/os-infrastructures
+3-Engagement/os-engagement
+4-Dialogue/os-dialogue
+
+```
+
+
+```{figure} Docs/UNESCO-Open_science-pillars-en.png
+---
+width: 90%
+align: center
+name: UNESCO-Open_science-pillars-en
+---
+4 pillars of open science according to UNESCO - **Source** : [Wikipedia](https://en.wikipedia.org/wiki/Open_science)
+```
+
 
 ## Frameworks
 
@@ -125,6 +146,14 @@ Télécharger et tester !
 - [Open science from the standpoint of the new wave of researchers: Views from the scholarly frontline](https://journals.sagepub.com/doi/pdf/10.3233/ISU-190069)
 
 ```{note}
+
+Lire, extraire et inclure dans bibliography
+
+```
+
+- [Open Science in the Literature](https://osf.io/kgnva/wiki?wiki=8wyr2)
+
+- ```{note}
 
 Lire, extraire et inclure dans bibliography
 

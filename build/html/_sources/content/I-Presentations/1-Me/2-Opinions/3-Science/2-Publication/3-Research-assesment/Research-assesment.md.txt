@@ -32,3 +32,8 @@ Note prise depuis le cours [DORA](https://sfdora.org/courses/introductory-course
 ```{note}
 Faire lien vers section impact
 ```
+
+
+#### Autres 
+
+- [using-lotteries-to-increase-fairness-and-efficiency-in-research-assessment](https://sfdora.org/2025/03/27/using-lotteries-to-increase-fairness-and-efficiency-in-research-assessment/)
