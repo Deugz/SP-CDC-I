@@ -38,6 +38,21 @@ Article scientifique sur les usages de l'IA a lire et vulgariser
 ```
 
 
+#### Atrophie ou Augmentation
+
+- [Lucie Dhorne](https://www.canva.com/design/DAHEYvuuOg4/q_cq1er4qY9xZtkHYtdEKw/view?utm_content=DAHEYvuuOg4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h61267998ad)
+
+```{note}
+
+Extraire les information pertinentes de ce tallk et notemment l'idée du *nutriscore* !!
+
+- Inclure les deux images dans doc et expliquer la démarche du Brain to LLM (et non l'inverse)
+
+- Extraire les différentes sources scientifiques
+
+```
+
+
 ### IA and SDG
 
 - [www.ai-for-sdgs.academy](https://www.ai-for-sdgs.academy/)

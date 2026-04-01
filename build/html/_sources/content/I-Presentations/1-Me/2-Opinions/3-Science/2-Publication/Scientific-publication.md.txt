@@ -4,10 +4,10 @@
 :maxdepth: 2
 :hidden:
 
-1-How-it-works/Sc-publi-DIY
-2-Editorial-Market/Editorial-market
-3-Research-assesment/Research-assesment
-4-Impact/Research-Impact
+1-Edit/pub-Edit
+2-Market/pub-Market
+3-Assesment/pub-Assesment
+4-Impact/pub-Impact
 ```
 
 
@@ -43,6 +43,17 @@ Tres bon article sur l'histoire et le développement du coté commercial de la p
 
 
 
+### Problemes !
+
+#### Paper Mills
+
+- [Video Newspress](https://community.newpress.com/c/tunnelvision/watch-early-ad-free-the-real-business-of-fake-science)
+
+```{note}
+
+Article newpress qui explique très bien le problème
+
+```
 
 
 ## Peer Review

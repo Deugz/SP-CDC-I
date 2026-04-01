@@ -6,7 +6,7 @@
 
 1-Creativite/expr-creative
 2-Curiosite/expr-curiosite
-3-Anti-Capitalisme/pensee-anti-capitaliste
+3-Anti-Capitalisme/expr-anti-capitaliste
 4-Utopie/expr-utopie
 
 ```

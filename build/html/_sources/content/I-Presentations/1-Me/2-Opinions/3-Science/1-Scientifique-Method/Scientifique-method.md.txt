@@ -4,10 +4,10 @@
 :maxdepth: 2
 :hidden:
 
-1-Obs-Question/Obs-Question
-2-Research-Hypo/Research-Hypothesis
-3-Test-exp/Test-exp
-4-Analyse-Data/Analyse-Data
+1-Obs-Question/mtd-Obs-Question
+2-Research-Hypo/mtd-Research-Hypothesis
+3-Test-exp/mtd-Test-exp
+4-Analyse-Data/mtd-Analyse-Data
 
 ```
 

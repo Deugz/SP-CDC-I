@@ -8,3 +8,4 @@
 - {numref}`OS-infrastructure-UNESCO` — Interconnexions between Open Source and Open Science
 - {numref}`UNESCO-Open_science-pillars-en` — 4 pillars of Open Science
 - {numref}`strategic-priorities-reproducibility-science` — Reproducibility Strategic Priorities
+- {numref}`FAIRification-process` — The FAIRification process

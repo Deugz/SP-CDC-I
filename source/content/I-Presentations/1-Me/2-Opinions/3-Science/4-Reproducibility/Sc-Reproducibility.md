@@ -6,9 +6,9 @@
 :hidden:
 
 1-Crisis/repro-crisis
-2-Xp-Simulation/Xp-vs-Simulation
-3-Interdisciplinarity/Interdisciplinarity
-4-Bigger-Picture/The-bigger-picture
+2-Xp-Simulation/repro-Xp-vs-Simulation
+3-Interdisciplinarity/repro-Interdisciplinarity
+4-Bigger-Picture/repro-bigger-picture
 
 ```
 

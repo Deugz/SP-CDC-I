@@ -1,5 +1,13 @@
 # Version Alpha (en cours)
 
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+alpha1/VA1
+
+```
+
 ## Goals
 
 - Créer l'arborescence complète

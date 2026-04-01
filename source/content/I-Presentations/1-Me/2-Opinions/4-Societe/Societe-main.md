@@ -6,8 +6,8 @@
 
 1-Expression/Expression
 2-Je-Nous/du-jeu-au-nous
-3-Collectif/collectif
-4-Democratie/democratie
+3-Collectif/Collectif
+4-Democratie/Democratie
 
 ```
 

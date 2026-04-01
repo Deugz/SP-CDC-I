@@ -11,49 +11,49 @@ html_theme.sidebar_secondary.remove: true
 :maxdepth: 4
 :hidden:
 
-content/I-Presentations/Presentations-main
+content/I-Presentations/Presentations-index
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/II-Analyse/Analyse-main
+content/II-Analyse/Analyse-index
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/III-Identitee/Identitee-main
+content/III-Identitee/Identitee-index
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/IV-Conception/Conception-main
+content/IV-Conception/Conception-index
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/V-Dev/Dev-main
+content/V-Dev/Dev-index
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/VI-Marketing/Marketing-main
+content/VI-Marketing/Marketing-index
 ```
 
 ```{toctree}
 :maxdepth: 4
 :hidden:
 
-content/VII-Com/Com-main
+content/VII-Com/Com-index
 ```
 
 <br>
