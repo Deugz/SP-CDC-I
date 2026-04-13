@@ -188,3 +188,21 @@ Inclure un nuage de mot qui reprend les thématiques abordés
 - Atelier first
 
 ## Annexes
+
+
+
+
+## La suite
+
+```{note}
+
+Inclure la section commentaire + les recommandations de lectures ultérieures
+
+
+```
+
+<div id="wcb" class="carbonbadge"></div>
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+
+
+
