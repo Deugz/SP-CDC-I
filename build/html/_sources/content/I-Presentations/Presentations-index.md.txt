@@ -201,8 +201,17 @@ Inclure la section commentaire + les recommandations de lectures ultérieures
 
 ```
 
-<div id="wcb" class="carbonbadge"></div>
+<div id="wcb" class="carbonbadge wcb-d" ></div>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+
+
+<iframe
+  id="inlineFrameExample"
+  title="Exemple de cadre intégré"
+  width="100%"
+  height="800"
+  src="https://www.websitecarbon.com/website/deugz-github-io-sp-cdc-i-build-html-content-i-presentations-presentations-index-html/">
+</iframe>
 
 
 
