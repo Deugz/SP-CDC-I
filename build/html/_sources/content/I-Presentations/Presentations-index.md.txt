@@ -194,24 +194,32 @@ Inclure un nuage de mot qui reprend les thématiques abordés
 
 ## La suite
 
+
+:::::{dropdown} Amélioration Continue
+
+::::{tab-set}
+
+:::{tab-item} Iterations 1
+
+```{figure} ../../_static/images/I-presentations/Carbone-footprint-I-2026-04-13.png
+---
+width: 90%
+align: center
+name: Carbone-footprint-I-2026-04-13
+---
+Test réalisé sur le site [https://www.websitecarbon.com/](https://www.websitecarbon.com/) le 13/04/2026
+```
+
+
+:::
+
+::::
+
+:::::
+
+
 ```{note}
 
 Inclure la section commentaire + les recommandations de lectures ultérieures
 
-
 ```
-
-<div id="wcb" class="carbonbadge wcb-d" ></div>
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
-
-
-<iframe
-  id="inlineFrameExample"
-  title="Exemple de cadre intégré"
-  width="100%"
-  height="800"
-  src="https://www.websitecarbon.com/website/deugz-github-io-sp-cdc-i-build-html-content-i-presentations-presentations-index-html/">
-</iframe>
-
-
-

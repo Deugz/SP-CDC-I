@@ -22,6 +22,8 @@ Reprendre les différentes étapes de la vie éducative d'un jeune
 
 
 
+
+
 ## Un Système Mondialisé
 
 
@@ -37,6 +39,9 @@ Reprendre les différentes étapes de la vie éducative d'un jeune
 
 - Très bon site avec des ressources sur différentes personalités en lien avec l'éducation. Très intéréssant pour réaliser des portraits en lien avec certains personnages importants 
     - Inclure dans bibliography ?
+
+- [Livre : Questions d'éducations](https://books.openedition.org/editionscnrs/89524?format=toc)
+    - Livre coécrit par plus de 60 Chercheurs comme un état de l'art sur l'éducation
 
 
 ```

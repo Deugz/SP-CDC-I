@@ -6,6 +6,12 @@ Le capitalisme ne vient pas d’un seul “fondateur”, mais s’est construit 
 
 ---
 
+```{note}
+
+Mettre tout ça dans un dropdown et faire des liens
+
+```
+
 ### 📚 Penseurs fondateurs du capitalisme
 
 - **Adam Smith**
@@ -80,6 +86,21 @@ Même s’ils ne sont pas “fondateurs”, ils sont essentiels pour comprendre 
 
 ---
 
+### Penser par nous même
+
+#### Cas d'école
+
+<p class="p-emphase">Totale et le réchauffement climatique</p>
+
+```{note}
+
+Utiliser l'article suivant pour montrer que Total est au courant depuis bientot 60 ans du réchauffement climatique induit par ses activitées
+
+- [Article](https://www.sciencedirect.com/science/article/pii/S0959378021001655)
+
+Lire et inclure dans biblio
+
+```
 
 
 
